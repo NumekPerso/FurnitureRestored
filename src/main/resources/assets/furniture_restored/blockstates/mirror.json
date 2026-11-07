@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furniture_restored:block/legacy/mirror"
+    },
+    "facing=south": {
+      "model": "furniture_restored:block/legacy/mirror",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "furniture_restored:block/legacy/mirror",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "furniture_restored:block/legacy/mirror",
+      "y": 270
+    }
+  }
+}

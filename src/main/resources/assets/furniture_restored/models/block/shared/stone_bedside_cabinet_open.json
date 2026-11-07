@@ -1,0 +1,9 @@
+{
+  "parent": "furniture_restored:block/bedside_cabinet_open",
+  "textures": {
+    "base": "minecraft:block/smooth_stone",
+    "top": "minecraft:block/stone",
+    "draw": "minecraft:block/stone",
+    "draw_front": "minecraft:block/stone"
+  }
+}

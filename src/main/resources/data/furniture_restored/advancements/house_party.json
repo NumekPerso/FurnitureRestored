@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:stereo"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.houseparty"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.houseparty.desc"
+    }
+  },
+  "parent": "furniture_restored:modern_technology",
+  "criteria": {
+    "stereo_activated": {
+      "trigger": "furniture_restored:stereo_activated"
+    }
+  }
+}

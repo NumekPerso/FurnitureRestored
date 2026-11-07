@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "***",
+    "*@*",
+    "*#*"
+  ],
+  "key": {
+    "@": {
+      "item": "furniture_restored:white_picket_fence"
+    },
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "*": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:electric_fence",
+    "count": 8
+  }
+}

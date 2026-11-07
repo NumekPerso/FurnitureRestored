@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "***",
+    "*@*",
+    "*@*"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:chest"
+    },
+    "*": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:granite_bedside_cabinet"
+  }
+}

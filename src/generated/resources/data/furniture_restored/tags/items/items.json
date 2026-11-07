@@ -1,0 +1,26 @@
+{
+  "values": [
+    "furniture_restored:flesh",
+    "furniture_restored:cooked_flesh",
+    "furniture_restored:bread_slice",
+    "furniture_restored:toast",
+    "furniture_restored:sausage",
+    "furniture_restored:cooked_sausage",
+    "furniture_restored:kebab",
+    "furniture_restored:cooked_kebab",
+    "furniture_restored:knife",
+    "furniture_restored:soap",
+    "furniture_restored:soapy_water",
+    "furniture_restored:super_soapy_water",
+    "furniture_restored:cool_pack",
+    "furniture_restored:ink_cartridge",
+    "furniture_restored:crowbar",
+    "furniture_restored:hammer",
+    "furniture_restored:tv_remote",
+    "furniture_restored:cup",
+    "furniture_restored:chopped_log",
+    "furniture_restored:envelope",
+    "furniture_restored:package",
+    "furniture_restored:spatula"
+  ]
+}

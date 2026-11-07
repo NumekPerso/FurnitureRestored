@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/coffee_table_short_all",
+  "textures": {
+    "top": "minecraft:block/polished_granite",
+    "legs": "minecraft:block/granite"
+  }
+}

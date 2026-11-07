@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "*@*",
+    "&R&",
+    "***"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:paper"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "&": {
+      "item": "minecraft:iron_block"
+    },
+    "*": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:printer"
+  }
+}

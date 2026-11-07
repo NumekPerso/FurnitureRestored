@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,mounted=false": {
+      "model": "furniture_restored:block/legacy/modern_tv"
+    },
+    "facing=north,mounted=true": {
+      "model": "furniture_restored:block/legacy/modern_tv_wall"
+    },
+    "facing=east,mounted=false": {
+      "model": "furniture_restored:block/legacy/modern_tv",
+      "y": 90
+    },
+    "facing=east,mounted=true": {
+      "model": "furniture_restored:block/legacy/modern_tv_wall",
+      "y": 90
+    },
+    "facing=south,mounted=false": {
+      "model": "furniture_restored:block/legacy/modern_tv",
+      "y": 180
+    },
+    "facing=south,mounted=true": {
+      "model": "furniture_restored:block/legacy/modern_tv_wall",
+      "y": 180
+    },
+    "facing=west,mounted=false": {
+      "model": "furniture_restored:block/legacy/modern_tv",
+      "y": 270
+    },
+    "facing=west,mounted=true": {
+      "model": "furniture_restored:block/legacy/modern_tv_wall",
+      "y": 270
+    }
+  }
+}

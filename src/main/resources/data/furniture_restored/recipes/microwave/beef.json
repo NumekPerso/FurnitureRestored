@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:microwave",
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "result": {
+    "item": "minecraft:cooked_beef"
+  }
+}

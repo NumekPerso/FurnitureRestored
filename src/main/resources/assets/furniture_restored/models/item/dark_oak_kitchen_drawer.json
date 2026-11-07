@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/kitchen_drawer_closed",
+    "textures": {
+        "top": "minecraft:block/dark_oak_log",
+        "base": "minecraft:block/dark_oak_planks"
+    }
+}

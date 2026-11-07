@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/modern_couch_none",
+  "textures": {
+    "couch": "minecraft:block/orange_terracotta"
+  }
+}

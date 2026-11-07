@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/kitchen_counter_default",
+    "textures": {
+        "top": "minecraft:block/red_terracotta"
+    }
+}

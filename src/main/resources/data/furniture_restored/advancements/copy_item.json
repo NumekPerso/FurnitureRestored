@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.copyitem"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.copyitem.desc"
+    }
+  },
+  "parent": "furniture_restored:modern_technology",
+  "criteria": {
+    "printer_copy": {
+      "trigger": "furniture_restored:printer_copy"
+    }
+  }
+}

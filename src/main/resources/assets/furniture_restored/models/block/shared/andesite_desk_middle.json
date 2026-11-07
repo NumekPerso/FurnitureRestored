@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/desk_middle",
+  "textures": {
+    "base": "minecraft:block/light_gray_concrete",
+    "top": "minecraft:block/cyan_terracotta"
+  }
+}

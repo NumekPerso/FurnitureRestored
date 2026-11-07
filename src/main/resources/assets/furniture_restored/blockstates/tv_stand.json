@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=north,type=none": {
+      "model": "furniture_restored:block/electronics/tv_stand"
+    },
+    "facing=north,type=left": {
+      "model": "furniture_restored:block/electronics/tv_stand_left"
+    },
+    "facing=north,type=right": {
+      "model": "furniture_restored:block/electronics/tv_stand_right"
+    },
+    "facing=north,type=both": {
+      "model": "furniture_restored:block/electronics/tv_stand_both"
+    },
+    "facing=east,type=none": {
+      "model": "furniture_restored:block/electronics/tv_stand",
+      "y": 90
+    },
+    "facing=east,type=left": {
+      "model": "furniture_restored:block/electronics/tv_stand_left",
+      "y": 90
+    },
+    "facing=east,type=right": {
+      "model": "furniture_restored:block/electronics/tv_stand_right",
+      "y": 90
+    },
+    "facing=east,type=both": {
+      "model": "furniture_restored:block/electronics/tv_stand_both",
+      "y": 90
+    },
+    "facing=south,type=none": {
+      "model": "furniture_restored:block/electronics/tv_stand",
+      "y": 180
+    },
+    "facing=south,type=left": {
+      "model": "furniture_restored:block/electronics/tv_stand_left",
+      "y": 180
+    },
+    "facing=south,type=right": {
+      "model": "furniture_restored:block/electronics/tv_stand_right",
+      "y": 180
+    },
+    "facing=south,type=both": {
+      "model": "furniture_restored:block/electronics/tv_stand_both",
+      "y": 180
+    },
+    "facing=west,type=none": {
+      "model": "furniture_restored:block/electronics/tv_stand",
+      "y": 270
+    },
+    "facing=west,type=left": {
+      "model": "furniture_restored:block/electronics/tv_stand_left",
+      "y": 270
+    },
+    "facing=west,type=right": {
+      "model": "furniture_restored:block/electronics/tv_stand_right",
+      "y": 270
+    },
+    "facing=west,type=both": {
+      "model": "furniture_restored:block/electronics/tv_stand_both",
+      "y": 270
+    }
+  }
+}

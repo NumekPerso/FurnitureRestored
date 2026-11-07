@@ -1,0 +1,14 @@
+{
+  "block.furniture_restored.toilet": "Toilet",
+  "block.furniture_restored.basin": "Wasbak",
+  "block.furniture_restored.bin": "Afvalbak",
+  "container.furniture_restored.bin": "Afvalbak",
+  "block.furniture_restored.tap": "Kraan",
+  "block.furniture_restored.computer": "Computer",
+  "block.furniture_restored.tv": "TV",
+  "block.furniture_restored.printer": "Printer",
+  "block.furniture_restored.stereo": "Stereo",
+  "container.furniture_restored.printer": "Printer",
+  "block.furniture_restored.oven": "Oven",
+  "container.furniture_restored.oven": "Oven"
+}

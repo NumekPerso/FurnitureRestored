@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/hedge_side",
+    "textures": {
+        "leaves": "minecraft:block/jungle_leaves"
+    }
+}

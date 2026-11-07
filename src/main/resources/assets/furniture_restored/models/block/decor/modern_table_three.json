@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/modern_table_three",
+  "textures": {
+    "particle": "minecraft:block/white_concrete"
+  }
+}

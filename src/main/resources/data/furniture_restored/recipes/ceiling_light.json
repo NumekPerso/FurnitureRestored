@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "S",
+    "G"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "O": {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:ceiling_light",
+    "count": 4
+  }
+}

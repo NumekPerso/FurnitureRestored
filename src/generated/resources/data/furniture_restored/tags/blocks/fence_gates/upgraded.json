@@ -1,0 +1,22 @@
+{
+  "values": [
+    "furniture_restored:oak_upgraded_gate",
+    "furniture_restored:stripped_oak_upgraded_gate",
+    "furniture_restored:birch_upgraded_gate",
+    "furniture_restored:stripped_birch_upgraded_gate",
+    "furniture_restored:spruce_upgraded_gate",
+    "furniture_restored:stripped_spruce_upgraded_gate",
+    "furniture_restored:jungle_upgraded_gate",
+    "furniture_restored:stripped_jungle_upgraded_gate",
+    "furniture_restored:acacia_upgraded_gate",
+    "furniture_restored:stripped_acacia_upgraded_gate",
+    "furniture_restored:dark_oak_upgraded_gate",
+    "furniture_restored:stripped_dark_oak_upgraded_gate",
+    "furniture_restored:crimson_upgraded_gate",
+    "furniture_restored:stripped_crimson_upgraded_gate",
+    "furniture_restored:warped_upgraded_gate",
+    "furniture_restored:stripped_warped_upgraded_gate",
+    "furniture_restored:mangrove_upgraded_gate",
+    "furniture_restored:stripped_mangrove_upgraded_gate"
+  ]
+}

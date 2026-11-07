@@ -1,0 +1,20 @@
+{
+  "type": "furniture_restored:blender",
+  "name": "Fruit Crush",
+  "heal": 4,
+  "color": [
+    255,
+    58,
+    37
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:apple",
+      "count": 2
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "count": 4
+    }
+  ]
+}

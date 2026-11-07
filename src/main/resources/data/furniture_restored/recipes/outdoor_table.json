@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LGL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "G": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:outdoor_table"
+  }
+}

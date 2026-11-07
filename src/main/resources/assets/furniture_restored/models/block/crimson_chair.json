@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/chair",
+    "textures": {
+        "seat": "minecraft:block/crimson_stem",
+        "legs": "minecraft:block/stripped_crimson_stem"
+    }
+}

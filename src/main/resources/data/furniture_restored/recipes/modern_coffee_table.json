@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "L L"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:white_concrete"
+    },
+    "L": {
+      "item": "minecraft:light_gray_concrete"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:modern_coffee_table"
+  }
+}

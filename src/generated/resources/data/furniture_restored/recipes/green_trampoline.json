@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "trampoline",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "tag": "forge:slimeballs"
+    },
+    "W": {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "pattern": [
+    "WSW",
+    "I I",
+    "III"
+  ],
+  "result": {
+    "item": "furniture_restored:trampoline",
+    "nbt": "{BlockEntityTag:{Color:13}}"
+  },
+  "show_notification": true
+}

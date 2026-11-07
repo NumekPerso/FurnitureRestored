@@ -1,0 +1,245 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "back": "false",
+        "forward": "true",
+        "left": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two_alt",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "true",
+        "left": "true",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two_alt",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "false",
+        "left": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two_alt",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "false",
+        "left": "true",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two_alt",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "true",
+        "left": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_one",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "false",
+        "left": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_one",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "false",
+        "left": "true",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_one",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "false",
+        "left": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_one",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "false",
+        "left": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_single",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "true",
+        "left": "false",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "true",
+        "left": "true",
+        "right": "false"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_three",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "true",
+        "left": "false",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_three",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "false",
+        "left": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_two",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "false",
+        "forward": "true",
+        "left": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_three",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "false",
+        "left": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_three",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "back": "true",
+        "forward": "true",
+        "left": "true",
+        "right": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/modern_outdoor_table_four",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "corner_north_west": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/decor/modern_outdoor_table_corner",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "corner_north_east": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/decor/modern_outdoor_table_corner",
+        "uvlock": true,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "corner_south_east": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/decor/modern_outdoor_table_corner",
+        "uvlock": true,
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "corner_south_west": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/decor/modern_outdoor_table_corner",
+        "uvlock": true,
+        "y": 270
+      }
+    }
+  ]
+}

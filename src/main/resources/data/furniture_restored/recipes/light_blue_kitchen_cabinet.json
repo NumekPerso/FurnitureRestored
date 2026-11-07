@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQQ",
+    "HCH",
+    "QQQ"
+  ],
+  "key": {
+    "Q": {
+      "item": "minecraft:white_concrete"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "H": {
+      "item": "minecraft:light_blue_terracotta"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:light_blue_kitchen_cabinet"
+  }
+}

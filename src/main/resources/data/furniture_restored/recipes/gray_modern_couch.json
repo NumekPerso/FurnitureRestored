@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OCO",
+    " S "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "furniture_restored:gray_sofa"
+    },
+    "S": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:gray_modern_couch"
+  }
+}

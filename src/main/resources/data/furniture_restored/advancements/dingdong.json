@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_door_bell"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.dingdong"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.dingdong.desc"
+    }
+  },
+  "parent": "furniture_restored:minekea",
+  "criteria": {
+    "clicked_doorbell": {
+      "trigger": "furniture_restored:clicked_doorbell"
+    }
+  }
+}

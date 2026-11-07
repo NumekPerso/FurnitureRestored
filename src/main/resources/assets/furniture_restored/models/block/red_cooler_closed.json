@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/cooler_closed",
+    "textures": {
+        "color": "minecraft:block/red_terracotta"
+    }
+}

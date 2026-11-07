@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "cookie_count=0": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=1": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=2": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=3": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=4": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=5": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    },
+    "cookie_count=6": {
+      "model": "furniture_restored:block/legacy/cookie_jar_pre"
+    }
+  }
+}

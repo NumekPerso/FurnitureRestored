@@ -1,0 +1,10 @@
+{
+  "parent": "furniture_restored:block/desk_cabinet_right_open",
+  "textures": {
+    "top": "minecraft:block/cyan_terracotta",
+    "base": "minecraft:block/light_gray_concrete",
+    "draw": "minecraft:block/cyan_terracotta",
+    "draw_front": "minecraft:block/cyan_terracotta",
+    "legs": "minecraft:block/polished_andesite"
+  }
+}

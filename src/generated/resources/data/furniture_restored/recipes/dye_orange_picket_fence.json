@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "picket_fence",
+  "key": {
+    "D": {
+      "tag": "forge:dyes/orange"
+    },
+    "F": {
+      "item": "furniture_restored:white_picket_fence"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FDF",
+    "FFF"
+  ],
+  "result": {
+    "count": 8,
+    "item": "furniture_restored:orange_picket_fence"
+  },
+  "show_notification": true
+}

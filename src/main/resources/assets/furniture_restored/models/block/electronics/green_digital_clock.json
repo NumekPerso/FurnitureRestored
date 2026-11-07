@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/digital_clock",
+  "textures": {
+    "1": "minecraft:block/green_concrete"
+  }
+}

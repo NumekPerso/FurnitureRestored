@@ -1,0 +1,14 @@
+{
+  "type": "furniture_restored:shapeless_no_remainder",
+  "ingredients": [
+    {
+      "item": "furniture_restored:soap"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "furniture_restored:soapy_water"
+  }
+}

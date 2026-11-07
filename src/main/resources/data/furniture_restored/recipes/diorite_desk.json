@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:polished_diorite"
+    },
+    "P": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:diorite_desk"
+  }
+}

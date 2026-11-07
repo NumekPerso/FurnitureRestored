@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cabinet",
+  "key": {
+    "L": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "P": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "pattern": [
+    "PPL",
+    "P L",
+    "PPL"
+  ],
+  "result": {
+    "count": 2,
+    "item": "furniture_restored:stripped_dark_oak_cabinet"
+  },
+  "show_notification": true
+}

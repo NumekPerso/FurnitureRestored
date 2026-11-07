@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/table_corner",
+    "textures": {
+        "top": "block/jungle_log",
+        "legs": "block/stripped_jungle_log"
+    }
+}

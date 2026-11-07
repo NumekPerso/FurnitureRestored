@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "kitchen_drawer",
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "L": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "P": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "furniture_restored:stripped_dark_oak_kitchen_drawer"
+  },
+  "show_notification": true
+}

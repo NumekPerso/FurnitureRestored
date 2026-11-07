@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "part=bottom,facing=north": {
+      "model": "furniture_restored:block/legacy/shower_bottom_pre",
+      "y": 270
+    },
+    "part=bottom,facing=south": {
+      "model": "furniture_restored:block/legacy/shower_bottom_pre",
+      "y": 90
+    },
+    "part=bottom,facing=east": {
+      "model": "furniture_restored:block/legacy/shower_bottom_pre"
+    },
+    "part=bottom,facing=west": {
+      "model": "furniture_restored:block/legacy/shower_bottom_pre",
+      "y": 180
+    },
+    "part=top,facing=north": {
+      "model": "furniture_restored:block/legacy/shower_top_pre",
+      "y": 270
+    },
+    "part=top,facing=south": {
+      "model": "furniture_restored:block/legacy/shower_top_pre",
+      "y": 90
+    },
+    "part=top,facing=east": {
+      "model": "furniture_restored:block/legacy/shower_top_pre"
+    },
+    "part=top,facing=west": {
+      "model": "furniture_restored:block/legacy/shower_top_pre",
+      "y": 180
+    }
+  }
+}

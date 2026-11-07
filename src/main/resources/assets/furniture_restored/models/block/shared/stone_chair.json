@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/chair",
+  "textures": {
+    "seat": "minecraft:block/cobblestone",
+    "legs": "minecraft:block/stone"
+  }
+}

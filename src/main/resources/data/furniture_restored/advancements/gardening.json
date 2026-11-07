@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_hedge"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.gardening"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.gardening.desc"
+    }
+  },
+  "parent": "furniture_restored:install",
+  "criteria": {
+    "get_outdoor_furniture": {
+      "trigger": "furniture_restored:get_outdoor_furniture"
+    }
+  }
+}

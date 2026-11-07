@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WPW",
+    "WWW"
+  ],
+  "key": {
+    "P": {
+      "item": "furniture_restored:package"
+    },
+    "W": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:gray_present"
+  }
+}

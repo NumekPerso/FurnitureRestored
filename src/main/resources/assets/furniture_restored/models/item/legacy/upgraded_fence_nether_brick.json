@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:item/legacy/upgraded_fence",
+  "textures": {
+    "log": "minecraft:block/nether_bricks",
+    "plank": "minecraft:block/nether_bricks"
+  }
+}

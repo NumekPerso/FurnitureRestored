@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/curtains_none",
+  "textures": {
+    "colour": "minecraft:block/purple_wool"
+  }
+}

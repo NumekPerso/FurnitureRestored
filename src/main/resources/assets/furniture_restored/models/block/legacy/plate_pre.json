@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/plate",
+  "textures": {
+    "1": "minecraft:block/white_concrete"
+  },
+  "render_type": "minecraft:cutout"
+}

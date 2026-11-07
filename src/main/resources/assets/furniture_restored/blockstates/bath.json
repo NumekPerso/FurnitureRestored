@@ -1,0 +1,514 @@
+{
+  "variants": {
+    "part=bottom,facing=north,level=0": {
+      "model": "furniture_restored:block/legacy/bath_bottom_0_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_1_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_2_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_3_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_4_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_5_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_6_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_7_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_8_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_9_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_10_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_11_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_12_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_13_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_14_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_15_pre",
+      "y": 270
+    },
+    "part=bottom,facing=north,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_16_pre",
+      "y": 270
+    },
+    "part=bottom,facing=east,level=0": {
+      "model": "furniture_restored:block/legacy/bath_bottom_0_pre"
+    },
+    "part=bottom,facing=east,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_1_pre"
+    },
+    "part=bottom,facing=east,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_2_pre"
+    },
+    "part=bottom,facing=east,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_3_pre"
+    },
+    "part=bottom,facing=east,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_4_pre"
+    },
+    "part=bottom,facing=east,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_5_pre"
+    },
+    "part=bottom,facing=east,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_6_pre"
+    },
+    "part=bottom,facing=east,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_7_pre"
+    },
+    "part=bottom,facing=east,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_8_pre"
+    },
+    "part=bottom,facing=east,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_9_pre"
+    },
+    "part=bottom,facing=east,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_10_pre"
+    },
+    "part=bottom,facing=east,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_11_pre"
+    },
+    "part=bottom,facing=east,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_12_pre"
+    },
+    "part=bottom,facing=east,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_13_pre"
+    },
+    "part=bottom,facing=east,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_14_pre"
+    },
+    "part=bottom,facing=east,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_15_pre"
+    },
+    "part=bottom,facing=east,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_16_pre"
+    },
+    "part=bottom,facing=south,level=0": {
+      "model": "furniture_restored:block/legacy/bath_bottom_0_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_1_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_2_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_3_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_4_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_5_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_6_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_7_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_8_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_9_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_10_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_11_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_12_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_13_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_14_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_15_pre",
+      "y": 90
+    },
+    "part=bottom,facing=south,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_16_pre",
+      "y": 90
+    },
+    "part=bottom,facing=west,level=0": {
+      "model": "furniture_restored:block/legacy/bath_bottom_0_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_1_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_2_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_3_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_4_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_5_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_6_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_7_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_8_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_9_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_10_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_11_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_12_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_13_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_14_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_15_pre",
+      "y": 180
+    },
+    "part=bottom,facing=west,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_bottom_16_pre",
+      "y": 180
+    },
+    "part=top,facing=north,level=0": {
+      "model": "furniture_restored:block/legacy/bath_top_0_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_top_1_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_top_2_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_top_3_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_top_4_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_top_5_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_top_6_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_top_7_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_top_8_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_top_9_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_top_10_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_top_11_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_top_12_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_top_13_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_top_14_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_top_15_pre",
+      "y": 270
+    },
+    "part=top,facing=north,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_top_16_pre",
+      "y": 270
+    },
+    "part=top,facing=east,level=0": {
+      "model": "furniture_restored:block/legacy/bath_top_0_pre"
+    },
+    "part=top,facing=east,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_top_1_pre"
+    },
+    "part=top,facing=east,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_top_2_pre"
+    },
+    "part=top,facing=east,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_top_3_pre"
+    },
+    "part=top,facing=east,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_top_4_pre"
+    },
+    "part=top,facing=east,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_top_5_pre"
+    },
+    "part=top,facing=east,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_top_6_pre"
+    },
+    "part=top,facing=east,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_top_7_pre"
+    },
+    "part=top,facing=east,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_top_8_pre"
+    },
+    "part=top,facing=east,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_top_9_pre"
+    },
+    "part=top,facing=east,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_top_10_pre"
+    },
+    "part=top,facing=east,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_top_11_pre"
+    },
+    "part=top,facing=east,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_top_12_pre"
+    },
+    "part=top,facing=east,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_top_13_pre"
+    },
+    "part=top,facing=east,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_top_14_pre"
+    },
+    "part=top,facing=east,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_top_15_pre"
+    },
+    "part=top,facing=east,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_top_16_pre"
+    },
+    "part=top,facing=south,level=0": {
+      "model": "furniture_restored:block/legacy/bath_top_0_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_top_1_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_top_2_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_top_3_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_top_4_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_top_5_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_top_6_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_top_7_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_top_8_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_top_9_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_top_10_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_top_11_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_top_12_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_top_13_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_top_14_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_top_15_pre",
+      "y": 90
+    },
+    "part=top,facing=south,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_top_16_pre",
+      "y": 90
+    },
+    "part=top,facing=west,level=0": {
+      "model": "furniture_restored:block/legacy/bath_top_0_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=1": {
+      "model": "furniture_restored:block/bathroom/bath_top_1_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=2": {
+      "model": "furniture_restored:block/bathroom/bath_top_2_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=3": {
+      "model": "furniture_restored:block/bathroom/bath_top_3_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=4": {
+      "model": "furniture_restored:block/bathroom/bath_top_4_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=5": {
+      "model": "furniture_restored:block/bathroom/bath_top_5_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=6": {
+      "model": "furniture_restored:block/bathroom/bath_top_6_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=7": {
+      "model": "furniture_restored:block/bathroom/bath_top_7_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=8": {
+      "model": "furniture_restored:block/bathroom/bath_top_8_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=9": {
+      "model": "furniture_restored:block/bathroom/bath_top_9_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=10": {
+      "model": "furniture_restored:block/bathroom/bath_top_10_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=11": {
+      "model": "furniture_restored:block/bathroom/bath_top_11_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=12": {
+      "model": "furniture_restored:block/bathroom/bath_top_12_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=13": {
+      "model": "furniture_restored:block/bathroom/bath_top_13_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=14": {
+      "model": "furniture_restored:block/bathroom/bath_top_14_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=15": {
+      "model": "furniture_restored:block/bathroom/bath_top_15_pre",
+      "y": 180
+    },
+    "part=top,facing=west,level=16": {
+      "model": "furniture_restored:block/bathroom/bath_top_16_pre",
+      "y": 180
+    }
+  }
+}

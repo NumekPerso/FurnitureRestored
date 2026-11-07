@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:item/hedge",
+    "textures": {
+        "leaves": "minecraft:block/acacia_leaves"
+    }
+}

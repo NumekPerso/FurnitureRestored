@@ -1,0 +1,78 @@
+{
+  "textures": {
+    "bar": "minecraft:block/oak_log",
+    "particle": "#colour"
+  },
+  "elements": [
+    {
+      "name": "Element",
+      "from": [
+        14,
+        14,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bar",
+          "uv": [
+            14,
+            14,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#bar",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#bar",
+          "uv": [
+            14,
+            14,
+            16,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#bar",
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#bar",
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#bar",
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

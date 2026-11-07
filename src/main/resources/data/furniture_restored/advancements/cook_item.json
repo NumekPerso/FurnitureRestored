@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.cookitem"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.cookitem.desc"
+    }
+  },
+  "parent": "furniture_restored:appliance_city",
+  "criteria": {
+    "oven_cook": {
+      "trigger": "furniture_restored:oven_cook"
+    }
+  }
+}

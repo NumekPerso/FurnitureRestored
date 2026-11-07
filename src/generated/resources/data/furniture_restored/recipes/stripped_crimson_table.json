@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "table",
+  "key": {
+    "L": {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    "P": {
+      "item": "minecraft:crimson_stem"
+    }
+  },
+  "pattern": [
+    "LLL",
+    " P ",
+    " P "
+  ],
+  "result": {
+    "count": 4,
+    "item": "furniture_restored:stripped_crimson_table"
+  },
+  "show_notification": true
+}

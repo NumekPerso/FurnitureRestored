@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/inflatable_castle_middle",
+  "textures": {
+    "all": "minecraft:block/green_shulker_box"
+  }
+}

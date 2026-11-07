@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:white_present"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.unwrappresent"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.unwrappresent.desc"
+    }
+  },
+  "parent": "furniture_restored:place_tree",
+  "criteria": {
+    "unwrap_present": {
+      "trigger": "furniture_restored:unwrap_present"
+    }
+  }
+}

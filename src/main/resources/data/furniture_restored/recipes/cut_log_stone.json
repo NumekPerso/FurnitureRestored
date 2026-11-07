@@ -1,0 +1,16 @@
+{
+  "type": "furniture_restored:cutting_shapeless",
+  "group": "furniture_restored:log",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "result": {
+    "item": "furniture_restored:chopped_log",
+    "count": 8
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:tap"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.tapped"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.tapped.desc"
+    }
+  },
+  "parent": "furniture_restored:gardening",
+  "criteria": {
+    "place_tap": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "furniture_restored:tap"
+          }
+        ]
+      }
+    }
+  }
+}

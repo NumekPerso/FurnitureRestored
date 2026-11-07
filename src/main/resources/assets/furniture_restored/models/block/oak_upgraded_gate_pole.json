@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/upgraded_gate_pole",
+    "textures": {
+        "pole": "minecraft:block/oak_log"
+    }
+}

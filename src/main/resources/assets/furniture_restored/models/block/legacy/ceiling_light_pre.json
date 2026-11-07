@@ -1,0 +1,11 @@
+{
+  "parent": "furniture_restored:block/legacy/ceiling_light",
+  "textures": {
+    "1": "minecraft:block/gray_concrete",
+    "2": "minecraft:block/light_gray_concrete",
+    "3": "minecraft:block/yellow_stained_glass",
+    "4": "minecraft:block/white_stained_glass",
+    "5": "minecraft:block/white_stained_glass"
+  },
+  "render_type": "minecraft:translucent"
+}

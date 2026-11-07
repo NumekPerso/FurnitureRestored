@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/kitchen_counter_right_corner",
+    "textures": {
+        "top": "minecraft:block/jungle_log",
+        "base": "minecraft:block/jungle_planks"
+    }
+}

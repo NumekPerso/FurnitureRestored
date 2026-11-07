@@ -1,0 +1,28 @@
+{
+  "values": [
+    "furniture_restored:white_present",
+    "furniture_restored:orange_present",
+    "furniture_restored:magenta_present",
+    "furniture_restored:light_blue_present",
+    "furniture_restored:yellow_present",
+    "furniture_restored:lime_present",
+    "furniture_restored:pink_present",
+    "furniture_restored:gray_present",
+    "furniture_restored:light_gray_present",
+    "furniture_restored:cyan_present",
+    "furniture_restored:purple_present",
+    "furniture_restored:blue_present",
+    "furniture_restored:brown_present",
+    "furniture_restored:green_present",
+    "furniture_restored:red_present",
+    "furniture_restored:black_present",
+    "furniture_restored:tree",
+    "furniture_restored:mantel_piece",
+    "furniture_restored:grand_chair",
+    "furniture_restored:candle",
+    "furniture_restored:chimney",
+    "furniture_restored:wreath",
+    "furniture_restored:fairy_light",
+    "furniture_restored:fire_pit"
+  ]
+}

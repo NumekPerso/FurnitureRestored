@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "furniture_restored:block/rock_path0"           },
+            { "model": "furniture_restored:block/rock_path0", "y": 90  },
+            { "model": "furniture_restored:block/rock_path0", "y": 180 },
+            { "model": "furniture_restored:block/rock_path0", "y": 270 },
+            { "model": "furniture_restored:block/rock_path1"           },
+            { "model": "furniture_restored:block/rock_path1", "y": 90  },
+            { "model": "furniture_restored:block/rock_path1", "y": 180 },
+            { "model": "furniture_restored:block/rock_path1", "y": 270 },
+            { "model": "furniture_restored:block/rock_path2"           },
+            { "model": "furniture_restored:block/rock_path2", "y": 90  },
+            { "model": "furniture_restored:block/rock_path2", "y": 180 },
+            { "model": "furniture_restored:block/rock_path2", "y": 270 },
+            { "model": "furniture_restored:block/rock_path3"           },
+            { "model": "furniture_restored:block/rock_path3", "y": 90  },
+            { "model": "furniture_restored:block/rock_path3", "y": 180 },
+            { "model": "furniture_restored:block/rock_path3", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_chair"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.minekea"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.minekea.desc"
+    }
+  },
+  "parent": "furniture_restored:install",
+  "criteria": {
+    "get_chair_or_table": {
+      "trigger": "furniture_restored:get_chair_or_table"
+    }
+  }
+}

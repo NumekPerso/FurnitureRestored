@@ -1,0 +1,10 @@
+{
+  "type": "furniture_restored:freezer_solidify",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "furniture_restored:flesh"
+}

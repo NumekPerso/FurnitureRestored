@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_chair"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.install"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.install.desc"
+    },
+    "announce_to_chat": false
+  },
+  "parent": "furniture_restored:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

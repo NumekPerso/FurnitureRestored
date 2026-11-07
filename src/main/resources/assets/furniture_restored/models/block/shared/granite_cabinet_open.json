@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/cabinet_open",
+  "textures": {
+    "door": "minecraft:block/polished_granite",
+    "base": "minecraft:block/white_terracotta"
+  }
+}

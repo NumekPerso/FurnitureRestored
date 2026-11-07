@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=north,part=foot,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_both"
+    },
+    "facing=east,part=foot,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_both",
+      "y": 90
+    },
+    "facing=south,part=foot,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_both",
+      "y": 180
+    },
+    "facing=west,part=foot,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_both",
+      "y": 270
+    },
+    "facing=north,part=foot,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_left"
+    },
+    "facing=east,part=foot,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_left",
+      "y": 90
+    },
+    "facing=south,part=foot,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_left",
+      "y": 180
+    },
+    "facing=west,part=foot,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_left",
+      "y": 270
+    },
+    "facing=north,part=foot,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_right"
+    },
+    "facing=east,part=foot,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_right",
+      "y": 90
+    },
+    "facing=south,part=foot,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_right",
+      "y": 180
+    },
+    "facing=west,part=foot,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base_right",
+      "y": 270
+    },
+    "facing=north,part=foot,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base"
+    },
+    "facing=east,part=foot,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base",
+      "y": 90
+    },
+    "facing=south,part=foot,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base",
+      "y": 180
+    },
+    "facing=west,part=foot,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_base",
+      "y": 270
+    },
+    "facing=north,part=head,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_both"
+    },
+    "facing=east,part=head,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_both",
+      "y": 90
+    },
+    "facing=south,part=head,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_both",
+      "y": 180
+    },
+    "facing=west,part=head,type=both": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_both",
+      "y": 270
+    },
+    "facing=north,part=head,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_left"
+    },
+    "facing=east,part=head,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_left",
+      "y": 90
+    },
+    "facing=south,part=head,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_left",
+      "y": 180
+    },
+    "facing=west,part=head,type=left": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_left",
+      "y": 270
+    },
+    "facing=north,part=head,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_right"
+    },
+    "facing=east,part=head,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_right",
+      "y": 90
+    },
+    "facing=south,part=head,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_right",
+      "y": 180
+    },
+    "facing=west,part=head,type=right": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head_right",
+      "y": 270
+    },
+    "facing=north,part=head,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head"
+    },
+    "facing=east,part=head,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head",
+      "y": 90
+    },
+    "facing=south,part=head,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head",
+      "y": 180
+    },
+    "facing=west,part=head,type=none": {
+      "model": "furniture_restored:block/decor/green_modern_bed_head",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/door_bell_pre",
+  "textures": {
+    "1": "minecraft:block/birch_log"
+  }
+}

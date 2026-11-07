@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/thin_fence_post",
+  "textures": {
+    "texture": "minecraft:block/anvil"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/curtains_open_left_closed",
+  "textures": {
+    "colour": "minecraft:block/blue_wool"
+  }
+}

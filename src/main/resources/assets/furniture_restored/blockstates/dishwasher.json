@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furniture_restored:block/legacy/dishwasher",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "furniture_restored:block/legacy/dishwasher"
+    },
+    "facing=south": {
+      "model": "furniture_restored:block/legacy/dishwasher",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "furniture_restored:block/legacy/dishwasher",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " I ",
+    "ISI"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sea_lantern"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:range_hood"
+  }
+}

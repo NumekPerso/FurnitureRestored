@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/cabinet_open",
+    "textures": {
+        "door": "block/spruce_log",
+        "base": "block/stripped_spruce_log"
+    }
+}

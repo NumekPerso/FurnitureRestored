@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "furniture_restored:block/decor/cyan_curtains_closed",
+      "y": 270
+    },
+    "facing=north,open=true,type=default": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open",
+      "y": 270
+    },
+    "facing=north,open=true,type=right": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right",
+      "y": 270
+    },
+    "facing=north,open=true,type=left": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left",
+      "y": 270
+    },
+    "facing=north,open=true,type=right_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_open",
+      "y": 270
+    },
+    "facing=north,open=true,type=left_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_open",
+      "y": 270
+    },
+    "facing=north,open=true,type=right_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_closed",
+      "y": 270
+    },
+    "facing=north,open=true,type=left_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_closed",
+      "y": 270
+    },
+    "facing=north,open=true,type=both": {
+      "model": "furniture_restored:block/decor/cyan_curtains_both",
+      "y": 270
+    },
+    "facing=north,open=true,type=none": {
+      "model": "furniture_restored:block/decor/cyan_curtains_none",
+      "y": 270
+    },
+    "facing=east,open=false": {
+      "model": "furniture_restored:block/decor/cyan_curtains_closed"
+    },
+    "facing=east,open=true,type=default": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open"
+    },
+    "facing=east,open=true,type=right": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right"
+    },
+    "facing=east,open=true,type=left": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left"
+    },
+    "facing=east,open=true,type=right_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_open"
+    },
+    "facing=east,open=true,type=left_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_open"
+    },
+    "facing=east,open=true,type=right_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_closed"
+    },
+    "facing=east,open=true,type=left_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_closed"
+    },
+    "facing=east,open=true,type=both": {
+      "model": "furniture_restored:block/decor/cyan_curtains_both"
+    },
+    "facing=east,open=true,type=none": {
+      "model": "furniture_restored:block/decor/cyan_curtains_none"
+    },
+    "facing=south,open=false": {
+      "model": "furniture_restored:block/decor/cyan_curtains_closed",
+      "y": 90
+    },
+    "facing=south,open=true,type=default": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open",
+      "y": 90
+    },
+    "facing=south,open=true,type=right": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right",
+      "y": 90
+    },
+    "facing=south,open=true,type=left": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left",
+      "y": 90
+    },
+    "facing=south,open=true,type=right_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_open",
+      "y": 90
+    },
+    "facing=south,open=true,type=left_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_open",
+      "y": 90
+    },
+    "facing=south,open=true,type=right_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_closed",
+      "y": 90
+    },
+    "facing=south,open=true,type=left_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_closed",
+      "y": 90
+    },
+    "facing=south,open=true,type=both": {
+      "model": "furniture_restored:block/decor/cyan_curtains_both",
+      "y": 90
+    },
+    "facing=south,open=true,type=none": {
+      "model": "furniture_restored:block/decor/cyan_curtains_none",
+      "y": 90
+    },
+    "facing=west,open=false": {
+      "model": "furniture_restored:block/decor/cyan_curtains_closed",
+      "y": 180
+    },
+    "facing=west,open=true,type=default": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open",
+      "y": 180
+    },
+    "facing=west,open=true,type=right": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right",
+      "y": 180
+    },
+    "facing=west,open=true,type=left": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left",
+      "y": 180
+    },
+    "facing=west,open=true,type=right_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_open",
+      "y": 180
+    },
+    "facing=west,open=true,type=left_open": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_open",
+      "y": 180
+    },
+    "facing=west,open=true,type=right_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_right_closed",
+      "y": 180
+    },
+    "facing=west,open=true,type=left_closed": {
+      "model": "furniture_restored:block/decor/cyan_curtains_open_left_closed",
+      "y": 180
+    },
+    "facing=west,open=true,type=both": {
+      "model": "furniture_restored:block/decor/cyan_curtains_both",
+      "y": 180
+    },
+    "facing=west,open=true,type=none": {
+      "model": "furniture_restored:block/decor/cyan_curtains_none",
+      "y": 180
+    }
+  }
+}

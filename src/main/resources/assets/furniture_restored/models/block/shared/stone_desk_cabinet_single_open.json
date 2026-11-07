@@ -1,0 +1,10 @@
+{
+  "parent": "furniture_restored:block/desk_cabinet_single_open",
+  "textures": {
+    "top": "minecraft:block/gray_concrete",
+    "base": "minecraft:block/smooth_stone",
+    "draw": "minecraft:block/gray_concrete",
+    "draw_front": "minecraft:block/gray_concrete",
+    "legs": "minecraft:block/stone"
+  }
+}

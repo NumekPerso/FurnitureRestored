@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "furniture_restored:block/legacy/chimney_top"
+    },
+    "type=bottom": {
+      "model": "furniture_restored:block/legacy/chimney_bottom"
+    }
+  }
+}

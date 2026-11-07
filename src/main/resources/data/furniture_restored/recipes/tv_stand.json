@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CTC",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:gray_concrete"
+    },
+    "T": {
+      "item": "furniture_restored:modern_table"
+    },
+    "S": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:tv_stand"
+  }
+}

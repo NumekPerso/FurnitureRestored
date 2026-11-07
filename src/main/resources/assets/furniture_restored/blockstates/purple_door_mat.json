@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furniture_restored:block/shared/purple_door_mat",
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "furniture_restored:block/shared/purple_door_mat",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "furniture_restored:block/shared/purple_door_mat",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west": {
+      "model": "furniture_restored:block/shared/purple_door_mat",
+      "y": 270,
+      "uvlock": true
+    }
+  }
+}

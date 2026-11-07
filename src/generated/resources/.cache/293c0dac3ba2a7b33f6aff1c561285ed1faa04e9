@@ -1,0 +1,10 @@
+// 1.20.1	2026-11-07T04:00:21.7625712	Tags for minecraft:block mod id furniture_restored
+214f75cd032a631f1a0d235bcd21e5bcd76b5c82 data/furniture_restored/tags/blocks/fences/hedge.json
+c2381928c291ecfd9e7bd1979e0413bfeb5eb9f9 data/furniture_restored/tags/blocks/fences/picket.json
+281f4d4c3874900e44a8efdef4c94b526f5831f7 data/furniture_restored/tags/blocks/fences/upgraded.json
+1d77ff0e898da53822781b06790bfb3cefc0c514 data/furniture_restored/tags/blocks/fence_gates/picket.json
+ed00804745d3a61865d45671dbb3ea514d67d597 data/furniture_restored/tags/blocks/fence_gates/upgraded.json
+608bed73134330dcd8fdcce3ec34369f3721b490 data/minecraft/tags/blocks/fences.json
+e01348f2f19286196846995f01ffe65d0413c777 data/minecraft/tags/blocks/fence_gates.json
+4b1add6d3c201dc6cd85fe2ab1766b6ddade92c9 data/minecraft/tags/blocks/mineable/axe.json
+223098b17385c44e0d32ab06f388e29f826572fa data/minecraft/tags/blocks/mineable/pickaxe.json

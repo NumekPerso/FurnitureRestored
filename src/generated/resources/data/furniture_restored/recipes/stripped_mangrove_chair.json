@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chair",
+  "key": {
+    "L": {
+      "item": "minecraft:stripped_mangrove_log"
+    },
+    "P": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "pattern": [
+    "L  ",
+    "LLL",
+    "P P"
+  ],
+  "result": {
+    "count": 4,
+    "item": "furniture_restored:stripped_mangrove_chair"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:shower"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.allclean"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.allclean.desc"
+    }
+  },
+  "parent": "furniture_restored:bathroom",
+  "criteria": {
+    "player_shower": {
+      "trigger": "furniture_restored:player_shower"
+    }
+  }
+}

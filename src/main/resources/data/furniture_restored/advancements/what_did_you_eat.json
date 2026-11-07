@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:toilet"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.whatdidyoueat"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.whatdidyoueat.desc"
+    }
+  },
+  "parent": "furniture_restored:bathroom",
+  "criteria": {
+    "player_fart": {
+      "trigger": "furniture_restored:player_fart"
+    }
+  }
+}

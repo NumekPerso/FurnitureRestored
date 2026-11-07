@@ -1,0 +1,14 @@
+{
+  "block.furniture_restored.toilet": "Toaletă",
+  "block.furniture_restored.basin": "Chiuvetă",
+  "block.furniture_restored.bin": "Coș",
+  "container.furniture_restored.bin": "Coș",
+  "block.furniture_restored.tap": "Pompă",
+  "block.furniture_restored.computer": "Calculator",
+  "block.furniture_restored.tv": "TV",
+  "block.furniture_restored.printer": "Imprimantă",
+  "block.furniture_restored.stereo": "Radio",
+  "container.furniture_restored.printer": "Imprimantă",
+  "block.furniture_restored.oven": "Aragaz",
+  "container.furniture_restored.oven": "Aragaz"
+}

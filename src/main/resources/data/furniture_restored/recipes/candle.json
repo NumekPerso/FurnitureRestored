@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "SSS",
+    " C "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "W": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:candle"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furniture_restored:block/electronics/light_blue_digital_clock"
+    },
+    "facing=east": {
+      "model": "furniture_restored:block/electronics/light_blue_digital_clock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "furniture_restored:block/electronics/light_blue_digital_clock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furniture_restored:block/electronics/light_blue_digital_clock",
+      "y": 270
+    }
+  }
+}

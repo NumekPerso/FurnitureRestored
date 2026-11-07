@@ -1,0 +1,9 @@
+{
+  "parent": "furniture_restored:block/bedside_cabinet_open",
+  "textures": {
+    "base": "minecraft:block/white_terracotta",
+    "top": "minecraft:block/polished_granite",
+    "draw": "minecraft:block/polished_granite",
+    "draw_front": "minecraft:block/polished_granite"
+  }
+}

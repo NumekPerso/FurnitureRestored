@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/modern_bed_base_right",
+  "textures": {
+    "color": "minecraft:block/magenta_wool",
+    "particle": "minecraft:block/gray_concrete"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/tv_stand_left",
+  "textures": {
+    "particle": "minecraft:block/gray_concrete"
+  }
+}

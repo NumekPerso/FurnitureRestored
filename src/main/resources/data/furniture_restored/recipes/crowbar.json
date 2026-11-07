@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " C ",
+    "I  "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:red_terracotta"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:crowbar"
+  }
+}

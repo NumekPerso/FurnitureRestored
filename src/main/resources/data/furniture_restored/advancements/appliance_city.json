@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oven"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.appliancecity"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.appliancecity.desc"
+    }
+  },
+  "parent": "furniture_restored:install",
+  "criteria": {
+    "place_appliance": {
+      "trigger": "furniture_restored:place_appliance"
+    }
+  }
+}

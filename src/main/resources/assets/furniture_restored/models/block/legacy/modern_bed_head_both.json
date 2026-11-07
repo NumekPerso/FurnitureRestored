@@ -1,0 +1,168 @@
+{
+  "textures": {
+    "0": "minecraft:block/gray_concrete",
+    "1": "minecraft:block/light_gray_concrete",
+    "3": "minecraft:block/white_concrete"
+  },
+  "elements": [
+    {
+      "name": "bed_back",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "bed_bottom",
+      "from": [
+        0,
+        4.5,
+        2
+      ],
+      "to": [
+        16,
+        5.5,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#1",
+          "uv": [
+            0,
+            0,
+            16,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "bed_blanket_1",
+      "from": [
+        1,
+        5,
+        8
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#color",
+          "uv": [
+            0,
+            0,
+            15,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "pillow",
+      "from": [
+        0,
+        5,
+        2
+      ],
+      "to": [
+        16,
+        9.5,
+        8
+      ],
+      "faces": {
+        "south": {
+          "texture": "#3",
+          "uv": [
+            0,
+            0,
+            16,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#3",
+          "uv": [
+            0,
+            0,
+            16,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cube",
+      "from": [
+        0,
+        5,
+        8
+      ],
+      "to": [
+        1,
+        9,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#color",
+          "uv": [
+            15,
+            0,
+            16,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/table",
+  "textures": {
+    "top": "minecraft:block/polished_granite",
+    "legs": "minecraft:block/granite"
+  }
+}

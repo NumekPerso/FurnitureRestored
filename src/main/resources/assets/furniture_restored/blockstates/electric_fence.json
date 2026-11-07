@@ -1,0 +1,47 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "post": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/electric_fence_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/electric_fence_side",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/electric_fence_side",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/electric_fence_side",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "furniture_restored:block/legacy/electric_fence_side"
+      }
+    }
+  ]
+}

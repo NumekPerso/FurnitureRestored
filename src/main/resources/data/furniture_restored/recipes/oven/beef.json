@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:oven",
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "result": {
+    "item": "minecraft:cooked_beef"
+  }
+}

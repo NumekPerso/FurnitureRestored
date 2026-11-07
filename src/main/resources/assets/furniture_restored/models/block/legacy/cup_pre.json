@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/cup",
+  "textures": {
+    "1": "minecraft:block/white_stained_glass"
+  },
+  "render_type": "minecraft:translucent"
+}

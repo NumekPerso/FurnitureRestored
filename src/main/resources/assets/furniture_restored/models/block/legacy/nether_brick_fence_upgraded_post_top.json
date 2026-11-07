@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/fence_upgraded_post_top",
+  "textures": {
+    "log": "minecraft:block/nether_bricks"
+  },
+  "render_type": "minecraft:cutout"
+}

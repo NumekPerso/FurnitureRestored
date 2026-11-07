@@ -1,0 +1,10 @@
+{
+  "type": "furniture_restored:freezer_solidify",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:lava_bucket"
+  },
+  "result": "minecraft:obsidian"
+}

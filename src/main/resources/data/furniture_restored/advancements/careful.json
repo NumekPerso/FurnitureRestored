@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:electric_fence"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.careful"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.careful.desc"
+    }
+  },
+  "parent": "furniture_restored:modern_technology",
+  "criteria": {
+    "player_zapped": {
+      "trigger": "furniture_restored:player_zapped"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:note_block"
+    },
+    {
+      "item": "minecraft:stone_button"
+    },
+    {
+      "item": "minecraft:dark_oak_log"
+    }
+  ],
+  "result": {
+    "item": "furniture_restored:dark_oak_door_bell"
+  }
+}

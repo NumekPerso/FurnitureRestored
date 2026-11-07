@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:item/upgraded_fence",
+    "textures": {
+        "plank": "minecraft:block/black_concrete",
+        "middle": "minecraft:block/black_concrete"
+    }
+}

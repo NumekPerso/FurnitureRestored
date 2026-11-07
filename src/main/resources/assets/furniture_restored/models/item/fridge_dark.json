@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:item/fridge_light",
+    "textures": {
+        "base": "minecraft:block/gray_concrete"
+    }
+}

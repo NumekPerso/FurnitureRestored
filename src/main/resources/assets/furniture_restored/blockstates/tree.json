@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,part=bottom": {
+      "model": "furniture_restored:block/legacy/tree_bottom",
+      "y": 270
+    },
+    "facing=south,part=bottom": {
+      "model": "furniture_restored:block/legacy/tree_bottom",
+      "y": 90
+    },
+    "facing=east,part=bottom": {
+      "model": "furniture_restored:block/legacy/tree_bottom"
+    },
+    "facing=west,part=bottom": {
+      "model": "furniture_restored:block/legacy/tree_bottom",
+      "y": 180
+    },
+    "facing=north,part=top": {
+      "model": "furniture_restored:block/legacy/tree_top"
+    },
+    "facing=south,part=top": {
+      "model": "furniture_restored:block/legacy/tree_top",
+      "y": 180
+    },
+    "facing=east,part=top": {
+      "model": "furniture_restored:block/legacy/tree_top",
+      "y": 90
+    },
+    "facing=west,part=top": {
+      "model": "furniture_restored:block/legacy/tree_top",
+      "y": 270
+    }
+  }
+}

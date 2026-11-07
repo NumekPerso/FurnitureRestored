@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:oven",
+  "ingredient": {
+    "item": "furniture_restored:flesh"
+  },
+  "result": {
+    "item": "furniture_restored:cooked_flesh"
+  }
+}

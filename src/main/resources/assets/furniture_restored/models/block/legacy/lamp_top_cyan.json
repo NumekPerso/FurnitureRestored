@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/lamp_top",
+  "textures": {
+    "1": "minecraft:block/cyan_wool"
+  },
+  "render_type": "minecraft:cutout"
+}

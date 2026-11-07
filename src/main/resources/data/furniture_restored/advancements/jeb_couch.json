@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:rainbow_sofa"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.jebcouch"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.jebcouch.desc"
+    }
+  },
+  "parent": "furniture_restored:minekea",
+  "criteria": {
+    "create_couch_jeb": {
+      "trigger": "furniture_restored:create_couch_jeb"
+    }
+  }
+}

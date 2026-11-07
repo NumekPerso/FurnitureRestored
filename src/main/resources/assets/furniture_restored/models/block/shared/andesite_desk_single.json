@@ -1,0 +1,8 @@
+{
+  "parent": "furniture_restored:block/desk_single",
+  "textures": {
+    "base": "minecraft:block/light_gray_concrete",
+    "top": "minecraft:block/cyan_terracotta",
+    "legs": "minecraft:block/polished_andesite"
+  }
+}

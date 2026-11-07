@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:tv"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.heyeyey"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.heyeyey.desc"
+    }
+  },
+  "parent": "furniture_restored:modern_technology",
+  "criteria": {
+    "placed_tv": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "furniture_restored:tv"
+          }
+        ]
+      }
+    }
+  }
+}

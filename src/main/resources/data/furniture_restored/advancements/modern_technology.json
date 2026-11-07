@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:computer"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.moderntechnology"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.moderntechnology.desc"
+    }
+  },
+  "parent": "furniture_restored:install",
+  "criteria": {
+    "placed_computer": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "furniture_restored:computer"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/table_corner",
+    "textures": {
+        "top": "block/stripped_oak_log",
+        "legs": "block/oak_log"
+    }
+}

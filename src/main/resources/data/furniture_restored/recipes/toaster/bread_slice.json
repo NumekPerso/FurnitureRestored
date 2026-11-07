@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:toaster",
+  "ingredient": {
+    "item": "furniture_restored:bread_slice"
+  },
+  "result": {
+    "item": "furniture_restored:toast"
+  }
+}

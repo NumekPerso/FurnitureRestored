@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "furniture_restored:item/legacy/itemdrink",
+    "layer1": "furniture_restored:item/legacy/cup_overlay"
+  }
+}

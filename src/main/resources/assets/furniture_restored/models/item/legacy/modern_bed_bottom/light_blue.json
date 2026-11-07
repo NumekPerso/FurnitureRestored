@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:item/legacy/modern_bed",
+  "textures": {
+    "color": "minecraft:block/light_blue_wool"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:item/legacy/cabinet_kitchen",
+  "textures": {
+    "1": "minecraft:block/light_gray_terracotta"
+  }
+}

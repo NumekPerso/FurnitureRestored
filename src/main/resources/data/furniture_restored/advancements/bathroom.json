@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:basin"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.bathroom"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.bathroom.desc"
+    }
+  },
+  "parent": "furniture_restored:install",
+  "criteria": {
+    "get_bathroom_furniture": {
+      "trigger": "furniture_restored:get_bathroom_furniture"
+    }
+  }
+}

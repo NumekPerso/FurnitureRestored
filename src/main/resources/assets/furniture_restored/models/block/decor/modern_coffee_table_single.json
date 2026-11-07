@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/modern_coffee_table_single",
+  "textures": {
+    "particle": "minecraft:block/white_concrete"
+  }
+}

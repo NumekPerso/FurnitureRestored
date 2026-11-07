@@ -1,0 +1,24 @@
+{
+  "type": "furniture_restored:blender",
+  "name": "Egg Nog",
+  "heal": 5,
+  "color": [
+    255,
+    234,
+    178
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:egg",
+      "count": 4
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 2
+    }
+  ]
+}

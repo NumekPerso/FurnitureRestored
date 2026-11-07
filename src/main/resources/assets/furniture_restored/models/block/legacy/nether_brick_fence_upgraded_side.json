@@ -1,0 +1,8 @@
+{
+  "parent": "furniture_restored:block/legacy/fence_upgraded_side",
+  "textures": {
+    "plank": "minecraft:block/nether_bricks",
+    "log": "minecraft:block/nether_bricks"
+  },
+  "render_type": "minecraft:cutout"
+}

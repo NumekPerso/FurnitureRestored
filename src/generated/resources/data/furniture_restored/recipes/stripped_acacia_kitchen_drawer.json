@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "kitchen_drawer",
+  "key": {
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "L": {
+      "item": "minecraft:acacia_log"
+    },
+    "P": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "PCP",
+    "PPP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "furniture_restored:stripped_acacia_kitchen_drawer"
+  },
+  "show_notification": true
+}

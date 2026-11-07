@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "furniture_restored:block/decor/orange_photo_frame"
+    },
+    "facing=east": {
+      "model": "furniture_restored:block/decor/orange_photo_frame",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "furniture_restored:block/decor/orange_photo_frame",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furniture_restored:block/decor/orange_photo_frame",
+      "y": 270
+    }
+  }
+}

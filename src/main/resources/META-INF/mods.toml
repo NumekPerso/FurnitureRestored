@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GPLv3"
+
+[[mods]]
+modId="furniture_restored"
+version="1.0"
+displayName="Furniture Restored"
+authors="Numek, MrCrayfish (original mod)"
+credits="Based on MrCrayfish's Furniture Mod. All the furniture, models, textures and sounds are the work of MrCrayfish."
+description='''
+Brings the furniture of the 1.12.2 version of MrCrayfish's Furniture Mod back to Minecraft 1.20.1: kitchen, bathroom, electronics, modern furniture, Christmas decorations and more.
+
+Unofficial port, not affiliated with or endorsed by MrCrayfish. Please do not report problems with this mod to him.
+'''
+
+[[dependencies.furniture_restored]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.0.14,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.furniture_restored]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

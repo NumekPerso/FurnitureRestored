@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/coffee_table_tall_all",
+    "textures": {
+        "top": "block/stripped_warped_stem",
+        "legs": "block/warped_stem"
+    }
+}

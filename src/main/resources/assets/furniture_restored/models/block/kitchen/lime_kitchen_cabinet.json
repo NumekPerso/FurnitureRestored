@@ -1,0 +1,9 @@
+{
+  "parent": "furniture_restored:block/legacy/cabinet",
+  "textures": {
+    "1": "minecraft:block/lime_terracotta",
+    "2": "minecraft:block/gray_concrete",
+    "3": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/lime_terracotta"
+  }
+}

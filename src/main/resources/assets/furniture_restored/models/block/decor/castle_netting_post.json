@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "textures": {
+    "pane": "furniture_restored:block/legacy/netting",
+    "edge": "furniture_restored:block/legacy/netting"
+  },
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_table"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.title"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.title.desc"
+    },
+    "background": "minecraft:textures/block/oak_log.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

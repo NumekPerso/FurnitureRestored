@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/legacy/present",
+  "textures": {
+    "0": "minecraft:block/light_gray_concrete"
+  },
+  "render_type": "minecraft:cutout"
+}

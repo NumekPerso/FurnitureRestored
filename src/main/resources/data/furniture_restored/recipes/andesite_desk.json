@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:polished_andesite"
+    },
+    "P": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:andesite_desk"
+  }
+}

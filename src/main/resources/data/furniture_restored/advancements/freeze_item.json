@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.freezeitem"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.freezeitem.desc"
+    }
+  },
+  "parent": "furniture_restored:appliance_city",
+  "criteria": {
+    "freezer_freeze": {
+      "trigger": "furniture_restored:freezer_freeze"
+    }
+  }
+}

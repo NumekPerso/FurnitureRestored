@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:microwave",
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "result": {
+    "item": "minecraft:baked_potato"
+  }
+}

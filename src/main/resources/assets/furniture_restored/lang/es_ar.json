@@ -1,0 +1,13 @@
+{
+  "item.furniture_restored.envelope": "Correo",
+  "item.furniture_restored.signed_envelope": "Correo",
+  "item.furniture_restored.package": "Caja",
+  "item.furniture_restored.signed_package": "Caja",
+  "container.furniture_restored.envelope": "Correo",
+  "container.furniture_restored.package": "Caja",
+  "item.furniture_restored.flesh": "Carne",
+  "item.furniture_restored.cooked_flesh": "Carne Cocinada",
+  "item.furniture_restored.cool_pack": "Hielo Empaquetado",
+  "item.furniture_restored.ink_cartridge": "Cartucho de Tinta",
+  "item.furniture_restored.hammer": "Martillo"
+}

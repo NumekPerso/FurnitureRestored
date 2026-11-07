@@ -1,0 +1,7 @@
+{
+  "parent": "furniture_restored:block/cabinet_closed",
+  "textures": {
+    "door": "minecraft:block/polished_diorite",
+    "base": "minecraft:block/white_concrete"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "P P",
+    "P P"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:polished_granite"
+    },
+    "P": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:granite_desk"
+  }
+}

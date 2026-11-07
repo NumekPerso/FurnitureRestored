@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "P P"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:bench"
+  }
+}

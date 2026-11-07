@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:white_curtains"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.privacy"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.privacy.desc"
+    }
+  },
+  "parent": "furniture_restored:minekea",
+  "criteria": {
+    "get_blinds_or_curtains": {
+      "trigger": "furniture_restored:get_blinds_or_curtains"
+    }
+  }
+}

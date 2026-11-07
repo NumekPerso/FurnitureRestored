@@ -1,0 +1,17 @@
+// 1.20.1	2026-11-07T04:00:21.7645683	Tags for minecraft:item mod id furniture_restored
+25650c143229bae95ec2e3494583843b4384e1b9 data/furniture_restored/tags/items/bathroom.json
+9f7fd68d23673da585800046fed5435722983fe1 data/furniture_restored/tags/items/bedroom.json
+a54920607b9c21ed24e1e41c561c429756c14d31 data/furniture_restored/tags/items/electronics.json
+b3314e971255ca995bb3cd87798bddd370ff8d01 data/furniture_restored/tags/items/event.json
+214f75cd032a631f1a0d235bcd21e5bcd76b5c82 data/furniture_restored/tags/items/fences/hedge.json
+c2381928c291ecfd9e7bd1979e0413bfeb5eb9f9 data/furniture_restored/tags/items/fences/picket.json
+281f4d4c3874900e44a8efdef4c94b526f5831f7 data/furniture_restored/tags/items/fences/upgraded.json
+1d77ff0e898da53822781b06790bfb3cefc0c514 data/furniture_restored/tags/items/fence_gates/picket.json
+ed00804745d3a61865d45671dbb3ea514d67d597 data/furniture_restored/tags/items/fence_gates/upgraded.json
+417658fa89cd131664fa9b7e3dddce8a0d73336f data/furniture_restored/tags/items/general.json
+19773681bcca4ed8ca3ffcdb0fb9cd4dc79fad1b data/furniture_restored/tags/items/items.json
+9c54c1ce191a99cccbb5c0eb33d5e0e7dc5da26e data/furniture_restored/tags/items/kitchen.json
+832906cfd13723031dd36de68d591da2e42297e7 data/furniture_restored/tags/items/lighting.json
+c2881907143f70500dcc4613d390c2c6605f8a01 data/furniture_restored/tags/items/outdoors.json
+95e76f7879f257a6d9192581d8520feae5127343 data/furniture_restored/tags/items/storage.json
+a62aa5749109a67d1ba646265d5308ba1351ea04 data/furniture_restored/tags/items/trampoline.json

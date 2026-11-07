@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furniture_restored:block/black_kitchen_sink_alt",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "furniture_restored:block/black_kitchen_sink_alt",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furniture_restored:block/black_kitchen_sink_alt",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furniture_restored:block/black_kitchen_sink_alt",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/kitchen_counter_left_corner_inverted",
+    "textures": {
+        "top": "minecraft:block/brown_terracotta"
+    }
+}

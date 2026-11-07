@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/inflatable_castle_end",
+  "textures": {
+    "all": "minecraft:block/orange_shulker_box"
+  }
+}

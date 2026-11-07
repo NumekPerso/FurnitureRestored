@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "LLL",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:flower_pot"
+    },
+    "L": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:tree"
+  }
+}

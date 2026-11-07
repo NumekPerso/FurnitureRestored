@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:oak_mail_box"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.mailbox"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.mailbox.desc"
+    }
+  },
+  "parent": "furniture_restored:gardening",
+  "criteria": {
+    "place_mail_box": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:oak_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:spruce_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:birch_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:jungle_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:acacia_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:dark_oak_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:crimson_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:warped_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:mangrove_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_oak_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_spruce_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_birch_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_jungle_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_acacia_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_dark_oak_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_crimson_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_warped_mail_box"
+              },
+              {
+                "condition": "minecraft:block_state_property",
+                "block": "furniture_restored:stripped_mangrove_mail_box"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

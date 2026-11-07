@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:yellow_carpet"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:yellow_door_mat"
+  }
+}

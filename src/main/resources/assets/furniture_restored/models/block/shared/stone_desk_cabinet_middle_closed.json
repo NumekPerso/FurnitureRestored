@@ -1,0 +1,8 @@
+{
+  "parent": "furniture_restored:block/desk_cabinet_middle_closed",
+  "textures": {
+    "top": "minecraft:block/gray_concrete",
+    "base": "minecraft:block/smooth_stone",
+    "draw_front": "minecraft:block/gray_concrete"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "furniture_restored:envelope"
+    },
+    "title": {
+      "translate": "advancements.furniture_restored.sendmail"
+    },
+    "description": {
+      "translate": "advancements.furniture_restored.sendmail.desc"
+    }
+  },
+  "parent": "furniture_restored:mail_box",
+  "criteria": {
+    "player_sent_mail": {
+      "trigger": "furniture_restored:player_sent_mail"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:oven",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": {
+    "item": "minecraft:cooked_porkchop"
+  }
+}

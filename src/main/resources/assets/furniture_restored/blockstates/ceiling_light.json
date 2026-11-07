@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "furniture_restored:block/legacy/ceiling_light_off_pre"
+    },
+    "lit=true": {
+      "model": "furniture_restored:block/legacy/ceiling_light_pre"
+    }
+  }
+}

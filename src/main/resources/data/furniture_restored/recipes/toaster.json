@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QBQ",
+    "QPS",
+    "WWW"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:toaster"
+  }
+}

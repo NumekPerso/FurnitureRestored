@@ -1,0 +1,19 @@
+{
+  "type": "furniture_restored:shaped_no_remainder",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "GGG"
+  ],
+  "key": {
+    "S": {
+      "item": "furniture_restored:soapy_water"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:super_soapy_water"
+  }
+}

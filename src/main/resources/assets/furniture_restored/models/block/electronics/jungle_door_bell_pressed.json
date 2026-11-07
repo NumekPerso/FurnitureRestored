@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/door_bell_pressed_pre",
+  "textures": {
+    "1": "minecraft:block/jungle_log"
+  }
+}

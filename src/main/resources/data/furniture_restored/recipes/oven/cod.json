@@ -1,0 +1,9 @@
+{
+  "type": "furniture_restored:oven",
+  "ingredient": {
+    "item": "minecraft:cod"
+  },
+  "result": {
+    "item": "minecraft:cooked_cod"
+  }
+}

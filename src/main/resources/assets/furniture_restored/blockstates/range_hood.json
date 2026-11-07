@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "down=false,facing=north,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 270
+    },
+    "down=false,facing=north,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 270
+    },
+    "down=true,facing=north,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 270
+    },
+    "down=true,facing=north,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 270
+    },
+    "down=false,facing=east,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_pre"
+    },
+    "down=false,facing=east,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_pre"
+    },
+    "down=true,facing=east,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_vent"
+    },
+    "down=true,facing=east,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_vent"
+    },
+    "down=false,facing=south,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 90
+    },
+    "down=false,facing=south,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 90
+    },
+    "down=true,facing=south,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 90
+    },
+    "down=true,facing=south,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 90
+    },
+    "down=false,facing=west,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 180
+    },
+    "down=false,facing=west,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_pre",
+      "y": 180
+    },
+    "down=true,facing=west,powered=false": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 180
+    },
+    "down=true,facing=west,powered=true": {
+      "model": "furniture_restored:block/legacy/range_hood_vent",
+      "y": 180
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "***",
+    "*@*",
+    " & "
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:glowstone"
+    },
+    "&": {
+      "item": "minecraft:obsidian"
+    },
+    "*": {
+      "item": "minecraft:blue_wool"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:blue_lamp",
+    "count": 2
+  }
+}

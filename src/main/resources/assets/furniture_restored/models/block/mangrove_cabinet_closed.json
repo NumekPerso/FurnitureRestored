@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/cabinet_closed",
+    "textures": {
+        "door": "block/mangrove_log",
+        "base": "block/mangrove_planks"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "furniture_restored:block/legacy/door_mat",
+  "textures": {
+    "particle": "minecraft:block/brown_wool",
+    "mat": "minecraft:block/brown_wool",
+    "border": "minecraft:block/brown_concrete"
+  }
+}

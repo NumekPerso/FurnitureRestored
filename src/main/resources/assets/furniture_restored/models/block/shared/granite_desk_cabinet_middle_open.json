@@ -1,0 +1,9 @@
+{
+  "parent": "furniture_restored:block/desk_cabinet_middle_open",
+  "textures": {
+    "top": "minecraft:block/light_gray_terracotta",
+    "base": "minecraft:block/white_terracotta",
+    "draw": "minecraft:block/light_gray_terracotta",
+    "draw_front": "minecraft:block/light_gray_terracotta"
+  }
+}

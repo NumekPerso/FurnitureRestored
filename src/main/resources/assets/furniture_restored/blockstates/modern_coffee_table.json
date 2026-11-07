@@ -1,0 +1,78 @@
+{
+  "variants": {
+    "east=false,north=true,south=false,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two_alt",
+      "uvlock": true
+    },
+    "east=true,north=true,south=false,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two_alt",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=false,north=false,south=true,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two_alt",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=false,south=true,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two_alt",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=false,north=true,south=false,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_one",
+      "uvlock": true
+    },
+    "east=false,north=false,south=false,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_one",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=false,south=false,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_one",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=false,north=false,south=true,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_one",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=false,north=false,south=false,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_single",
+      "uvlock": true
+    },
+    "east=false,north=true,south=true,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=true,north=true,south=true,west=false": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_three",
+      "y": 90,
+      "uvlock": true
+    },
+    "east=false,north=true,south=true,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_three",
+      "y": 270,
+      "uvlock": true
+    },
+    "east=true,north=false,south=false,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_two",
+      "uvlock": true
+    },
+    "east=true,north=true,south=false,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_three",
+      "uvlock": true
+    },
+    "east=true,north=false,south=true,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_three",
+      "y": 180,
+      "uvlock": true
+    },
+    "east=true,north=true,south=true,west=true": {
+      "model": "furniture_restored:block/decor/modern_coffee_table_four",
+      "uvlock": true
+    }
+  }
+}

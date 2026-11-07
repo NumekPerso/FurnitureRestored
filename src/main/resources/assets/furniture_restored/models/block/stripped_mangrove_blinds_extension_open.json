@@ -1,0 +1,7 @@
+{
+    "parent": "furniture_restored:block/blinds_extension_open",
+    "textures": {
+        "slat": "minecraft:block/mangrove_planks",
+        "cord": "minecraft:block/mangrove_log"
+    }
+}

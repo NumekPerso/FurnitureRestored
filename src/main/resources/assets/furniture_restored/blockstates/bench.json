@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "facing=north,left=false,right=false": {
+      "model": "furniture_restored:block/legacy/bench_single"
+    },
+    "facing=east,left=false,right=false": {
+      "model": "furniture_restored:block/legacy/bench_single",
+      "y": 90
+    },
+    "facing=south,left=false,right=false": {
+      "model": "furniture_restored:block/legacy/bench_single"
+    },
+    "facing=west,left=false,right=false": {
+      "model": "furniture_restored:block/legacy/bench_single",
+      "y": 90
+    },
+    "facing=north,left=true,right=false": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 180
+    },
+    "facing=east,left=true,right=false": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 90
+    },
+    "facing=south,left=true,right=false": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 180
+    },
+    "facing=west,left=true,right=false": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 90
+    },
+    "facing=north,left=false,right=true": {
+      "model": "furniture_restored:block/legacy/bench_end"
+    },
+    "facing=east,left=false,right=true": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 270
+    },
+    "facing=south,left=false,right=true": {
+      "model": "furniture_restored:block/legacy/bench_end"
+    },
+    "facing=west,left=false,right=true": {
+      "model": "furniture_restored:block/legacy/bench_end",
+      "y": 270
+    },
+    "facing=north,left=true,right=true": {
+      "model": "furniture_restored:block/legacy/bench_middle"
+    },
+    "facing=east,left=true,right=true": {
+      "model": "furniture_restored:block/legacy/bench_middle",
+      "y": 90
+    },
+    "facing=south,left=true,right=true": {
+      "model": "furniture_restored:block/legacy/bench_middle"
+    },
+    "facing=west,left=true,right=true": {
+      "model": "furniture_restored:block/legacy/bench_middle",
+      "y": 90
+    }
+  }
+}

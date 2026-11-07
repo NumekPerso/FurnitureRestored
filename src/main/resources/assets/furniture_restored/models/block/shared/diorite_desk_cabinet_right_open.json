@@ -1,0 +1,10 @@
+{
+  "parent": "furniture_restored:block/desk_cabinet_right_open",
+  "textures": {
+    "top": "minecraft:block/white_concrete",
+    "base": "minecraft:block/white_concrete",
+    "draw": "minecraft:block/white_concrete",
+    "draw_front": "minecraft:block/white_concrete",
+    "legs": "minecraft:block/polished_diorite"
+  }
+}

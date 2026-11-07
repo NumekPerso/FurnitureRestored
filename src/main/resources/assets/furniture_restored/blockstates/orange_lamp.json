@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "down=false,up=false": {
+      "model": "furniture_restored:block/legacy/lamp_orange"
+    },
+    "down=false,up=true": {
+      "model": "furniture_restored:block/electronics/lamp_bottom"
+    },
+    "down=true,up=false": {
+      "model": "furniture_restored:block/legacy/lamp_top_orange"
+    },
+    "down=true,up=true": {
+      "model": "furniture_restored:block/legacy/lamp_middle"
+    }
+  }
+}

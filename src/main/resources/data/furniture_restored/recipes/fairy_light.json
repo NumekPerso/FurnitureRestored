@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "G": {
+      "item": "minecraft:green_stained_glass"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:fairy_light"
+  }
+}

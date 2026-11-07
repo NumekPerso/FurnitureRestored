@@ -1,0 +1,9 @@
+{
+  "parent": "furniture_restored:block/legacy/bath_top_0",
+  "textures": {
+    "1": "minecraft:block/white_concrete",
+    "2": "minecraft:block/cyan_terracotta",
+    "3": "minecraft:block/stone"
+  },
+  "render_type": "minecraft:cutout"
+}

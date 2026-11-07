@@ -1,0 +1,6 @@
+{
+  "parent": "furniture_restored:block/legacy/photo_frame",
+  "textures": {
+    "color": "minecraft:block/cyan_concrete"
+  }
+}

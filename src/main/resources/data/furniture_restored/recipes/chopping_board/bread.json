@@ -1,0 +1,10 @@
+{
+  "type": "furniture_restored:chopping_board",
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": {
+    "item": "furniture_restored:bread_slice",
+    "count": 6
+  }
+}

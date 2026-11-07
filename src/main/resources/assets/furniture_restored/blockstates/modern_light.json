@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off",
+      "x": 90
+    },
+    "facing=north,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on",
+      "x": 90
+    },
+    "facing=east,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off",
+      "x": 270,
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on",
+      "x": 270,
+      "y": 270
+    },
+    "facing=south,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off",
+      "x": 270
+    },
+    "facing=south,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on",
+      "x": 270
+    },
+    "facing=west,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off",
+      "x": 270,
+      "y": 90
+    },
+    "facing=west,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on",
+      "x": 270,
+      "y": 90
+    },
+    "facing=up,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off"
+    },
+    "facing=up,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on"
+    },
+    "facing=down,lit=false": {
+      "model": "furniture_restored:block/legacy/modern_light_off",
+      "x": 180
+    },
+    "facing=down,lit=true": {
+      "model": "furniture_restored:block/legacy/modern_light_on",
+      "x": 180
+    }
+  }
+}

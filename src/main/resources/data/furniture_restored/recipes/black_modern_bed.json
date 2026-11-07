@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "OCO",
+    " O "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:gray_concrete"
+    },
+    "C": {
+      "item": "minecraft:black_bed"
+    }
+  },
+  "result": {
+    "item": "furniture_restored:black_modern_bed"
+  }
+}

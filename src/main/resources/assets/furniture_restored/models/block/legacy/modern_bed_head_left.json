@@ -1,0 +1,320 @@
+{
+  "textures": {
+    "0": "minecraft:block/gray_concrete",
+    "1": "minecraft:block/light_gray_concrete",
+    "3": "minecraft:block/white_concrete"
+  },
+  "elements": [
+    {
+      "name": "bed_back",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        15,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            15
+          ],
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            15
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            2,
+            15
+          ],
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "name": "bed_side_1",
+      "from": [
+        0,
+        4,
+        2
+      ],
+      "to": [
+        1,
+        8,
+        16
+      ],
+      "faces": {
+        "east": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            14,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            14,
+            4
+          ],
+          "cullface": "west"
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            1,
+            14
+          ]
+        },
+        "down": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            1,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "bed_bottom",
+      "from": [
+        1,
+        4.5,
+        2
+      ],
+      "to": [
+        16,
+        5.5,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#1",
+          "uv": [
+            0,
+            0,
+            15,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "bed_blanket_1",
+      "from": [
+        1,
+        5,
+        8
+      ],
+      "to": [
+        16,
+        9,
+        16
+      ],
+      "faces": {
+        "west": {
+          "texture": "#color",
+          "uv": [
+            0,
+            0,
+            8,
+            4
+          ]
+        },
+        "up": {
+          "texture": "#color",
+          "uv": [
+            0,
+            0,
+            15,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "name": "pillow",
+      "from": [
+        1,
+        5,
+        2
+      ],
+      "to": [
+        16,
+        9.5,
+        8
+      ],
+      "faces": {
+        "south": {
+          "texture": "#3",
+          "uv": [
+            0,
+            0,
+            15,
+            4.5
+          ]
+        },
+        "west": {
+          "texture": "#3",
+          "uv": [
+            0,
+            0,
+            6,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#3",
+          "uv": [
+            0,
+            0,
+            15,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "name": "bed_back_2",
+      "from": [
+        1,
+        15,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            15,
+            1
+          ],
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            15,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            15,
+            2
+          ],
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "name": "bed_back_3",
+      "from": [
+        -0.4,
+        15,
+        0
+      ],
+      "to": [
+        1,
+        16,
+        2
+      ],
+      "rotation": {
+        "origin": [
+          1,
+          16,
+          2
+        ],
+        "axis": "z",
+        "angle": 45
+      },
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            1.4,
+            1
+          ],
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            1.4,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#0",
+          "uv": [
+            0,
+            0,
+            1.4,
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,218 @@
+{
+  "block.cabinet.open": {
+    "subtitle": "subtitle.furniture_restored.open_cabinet",
+    "sounds": [
+      "furniture_restored:block/cabinet/open"
+    ]
+  },
+  "block.cabinet.close": {
+    "subtitle": "subtitle.furniture_restored.close_cabinet",
+    "sounds": [
+      "furniture_restored:block/cabinet/close"
+    ]
+  },
+  "block.bedside_cabinet.open": {
+    "subtitle": "subtitle.furniture_restored.open_cabinet",
+    "sounds": [
+      "furniture_restored:block/bedside_cabinet/open"
+    ]
+  },
+  "block.bedside_cabinet.close": {
+    "subtitle": "subtitle.furniture_restored.close_cabinet",
+    "sounds": [
+      "furniture_restored:block/bedside_cabinet/close"
+    ]
+  },
+  "block.blinds.open": {
+    "subtitle": "subtitle.furniture_restored.open_blinds",
+    "sounds": [
+      "furniture_restored:block/blinds/open"
+    ]
+  },
+  "block.blinds.close": {
+    "subtitle": "subtitle.furniture_restored.close_blinds",
+    "sounds": [
+      "furniture_restored:block/blinds/close"
+    ]
+  },
+  "block.trampoline.bounce": {
+    "subtitle": "subtitle.furniture_restored.trampoline_bounce",
+    "sounds": [
+      "furniture_restored:block/trampoline/bounce"
+    ]
+  },
+  "block.grill.place": {
+    "subtitle": "subtitle.furniture_restored.grill_place",
+    "sounds": [
+      "furniture_restored:block/grill/place"
+    ]
+  },
+  "block.grill.flip": {
+    "subtitle": "subtitle.furniture_restored.grill_flip",
+    "sounds": [
+      "furniture_restored:block/grill/flip"
+    ]
+  },
+  "block.diving_board.bounce": {
+    "subtitle": "subtitle.furniture_restored.diving_board.bounce",
+    "sounds": [
+      "furniture_restored:block/diving_board/bounce"
+    ]
+  },
+  "block.fridge.open": {
+    "subtitle": "subtitle.furniture_restored.open_fridge",
+    "sounds": [
+      "furniture_restored:block/fridge/open"
+    ]
+  },
+  "block.fridge.close": {
+    "subtitle": "subtitle.furniture_restored.close_fridge",
+    "sounds": [
+      "furniture_restored:block/fridge/close"
+    ]
+  },
+  "legacy.door_bell": {
+    "subtitle": "subtitle.furniture_restored.legacy.door_bell",
+    "sounds": [
+      "furniture_restored:legacy/door_bell"
+    ]
+  },
+  "legacy.fire_alarm": {
+    "subtitle": "subtitle.furniture_restored.legacy.fire_alarm",
+    "sounds": [
+      "furniture_restored:legacy/fire_alarm"
+    ]
+  },
+  "legacy.zap": {
+    "subtitle": "subtitle.furniture_restored.legacy.zap",
+    "sounds": [
+      "furniture_restored:legacy/zap"
+    ]
+  },
+  "legacy.flush": {
+    "subtitle": "subtitle.furniture_restored.legacy.flush",
+    "sounds": [
+      "furniture_restored:legacy/flush"
+    ]
+  },
+  "legacy.shower": {
+    "subtitle": "subtitle.furniture_restored.legacy.shower",
+    "sounds": [
+      "furniture_restored:legacy/shower"
+    ]
+  },
+  "legacy.bin_open": {
+    "subtitle": "subtitle.furniture_restored.legacy.bin_open",
+    "sounds": [
+      "furniture_restored:legacy/bin_open"
+    ]
+  },
+  "legacy.bin_close": {
+    "subtitle": "subtitle.furniture_restored.legacy.bin_close",
+    "sounds": [
+      "furniture_restored:legacy/bin_close"
+    ]
+  },
+  "legacy.tap": {
+    "subtitle": "subtitle.furniture_restored.legacy.tap",
+    "sounds": [
+      "furniture_restored:legacy/tap"
+    ]
+  },
+  "legacy.fart_1": {
+    "subtitle": "subtitle.furniture_restored.legacy.fart_1",
+    "sounds": [
+      "furniture_restored:legacy/fart_1"
+    ]
+  },
+  "legacy.fart_2": {
+    "subtitle": "subtitle.furniture_restored.legacy.fart_2",
+    "sounds": [
+      "furniture_restored:legacy/fart_2"
+    ]
+  },
+  "legacy.fart_3": {
+    "subtitle": "subtitle.furniture_restored.legacy.fart_3",
+    "sounds": [
+      "furniture_restored:legacy/fart_3"
+    ]
+  },
+  "legacy.blender": {
+    "subtitle": "subtitle.furniture_restored.legacy.blender",
+    "sounds": [
+      "furniture_restored:legacy/blender"
+    ]
+  },
+  "legacy.dishwasher": {
+    "subtitle": "subtitle.furniture_restored.legacy.dishwasher",
+    "sounds": [
+      "furniture_restored:legacy/dishwasher"
+    ]
+  },
+  "legacy.knife_chop": {
+    "subtitle": "subtitle.furniture_restored.legacy.knife_chop",
+    "sounds": [
+      "furniture_restored:legacy/knife_chop"
+    ]
+  },
+  "legacy.microwave_running": {
+    "subtitle": "subtitle.furniture_restored.legacy.microwave_running",
+    "sounds": [
+      "furniture_restored:legacy/microwave_running"
+    ]
+  },
+  "legacy.microwave_finish": {
+    "subtitle": "subtitle.furniture_restored.legacy.microwave_finish",
+    "sounds": [
+      "furniture_restored:legacy/microwave_finish"
+    ]
+  },
+  "legacy.toaster_down": {
+    "subtitle": "subtitle.furniture_restored.legacy.toaster_down",
+    "sounds": [
+      "furniture_restored:legacy/toaster_down"
+    ]
+  },
+  "legacy.toaster_up": {
+    "subtitle": "subtitle.furniture_restored.legacy.toaster_up",
+    "sounds": [
+      "furniture_restored:legacy/toaster_up"
+    ]
+  },
+  "legacy.washing_machine": {
+    "subtitle": "subtitle.furniture_restored.legacy.washing_machine",
+    "sounds": [
+      "furniture_restored:legacy/washing_machine"
+    ]
+  },
+  "legacy.light_switch": {
+    "subtitle": "subtitle.furniture_restored.legacy.light_switch",
+    "sounds": [
+      "furniture_restored:legacy/light_switch"
+    ]
+  },
+  "legacy.sliding_door_open": {
+    "subtitle": "subtitle.furniture_restored.legacy.sliding_door_open",
+    "sounds": [
+      "furniture_restored:legacy/sliding_door_open"
+    ]
+  },
+  "legacy.sliding_door_close": {
+    "subtitle": "subtitle.furniture_restored.legacy.sliding_door_close",
+    "sounds": [
+      "furniture_restored:legacy/sliding_door_close"
+    ]
+  },
+  "legacy.sizzle": {
+    "subtitle": "subtitle.furniture_restored.legacy.sizzle",
+    "sounds": [
+      "furniture_restored:legacy/sizzle"
+    ]
+  },
+  "legacy.bounce": {
+    "subtitle": "subtitle.furniture_restored.legacy.bounce",
+    "sounds": [
+      "furniture_restored:legacy/bounce"
+    ]
+  }
+}
