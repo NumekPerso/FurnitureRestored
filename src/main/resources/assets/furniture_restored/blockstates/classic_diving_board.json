@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,part=base": { "model": "furniture_restored:block/legacy/classic_diving_board_base" },
+    "facing=east,part=base": { "model": "furniture_restored:block/legacy/classic_diving_board_base", "y": 90 },
+    "facing=south,part=base": { "model": "furniture_restored:block/legacy/classic_diving_board_base", "y": 180 },
+    "facing=west,part=base": { "model": "furniture_restored:block/legacy/classic_diving_board_base", "y": 270 },
+    "facing=north,part=board": { "model": "furniture_restored:block/legacy/classic_diving_board_plank", "y": 180 },
+    "facing=east,part=board": { "model": "furniture_restored:block/legacy/classic_diving_board_plank", "y": 90 },
+    "facing=south,part=board": { "model": "furniture_restored:block/legacy/classic_diving_board_plank" },
+    "facing=west,part=board": { "model": "furniture_restored:block/legacy/classic_diving_board_plank", "y": 270 }
+  }
+}

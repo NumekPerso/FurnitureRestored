@@ -47,7 +47,8 @@ public class BlockTagGen extends BlockTagsProvider
                 .add(ModBlocks.PICKET_FENCE_BROWN.get())
                 .add(ModBlocks.PICKET_FENCE_GREEN.get())
                 .add(ModBlocks.PICKET_FENCE_RED.get())
-                .add(ModBlocks.PICKET_FENCE_BLACK.get());
+                .add(ModBlocks.PICKET_FENCE_BLACK.get())
+                .add(SharedContent.WHITE_FENCE.get()); // The white fence of the 1.12.2 version
 
         // Picket fence gates connect to other picket fence gates
         this.tag(ModTags.Blocks.PICKET_FENCE_GATES)
@@ -66,7 +67,8 @@ public class BlockTagGen extends BlockTagsProvider
                 .add(ModBlocks.PICKET_GATE_BROWN.get())
                 .add(ModBlocks.PICKET_GATE_GREEN.get())
                 .add(ModBlocks.PICKET_GATE_RED.get())
-                .add(ModBlocks.PICKET_GATE_BLACK.get());
+                .add(ModBlocks.PICKET_GATE_BLACK.get())
+                .add(SharedContent.WHITE_GATE.get()); // The white gate of the 1.12.2 version
 
         this.tag(ModTags.Blocks.HEDGES)
                 .add(ModBlocks.HEDGE_OAK.get())

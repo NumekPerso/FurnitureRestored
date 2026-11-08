@@ -4,7 +4,7 @@ license="GPLv3"
 
 [[mods]]
 modId="furniture_restored"
-version="1.0"
+version="1.1"
 displayName="Furniture Restored"
 authors="Numek, MrCrayfish (original mod)"
 credits="Based on MrCrayfish's Furniture Mod. All the furniture, models, textures and sounds are the work of MrCrayfish."

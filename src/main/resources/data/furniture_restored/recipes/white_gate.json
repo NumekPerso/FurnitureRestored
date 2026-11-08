@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    { "tag": "forge:fence_gates/wooden" },
+    { "tag": "forge:dyes/white" }
+  ],
+  "result": { "item": "furniture_restored:white_gate", "count": 2 }
+}

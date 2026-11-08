@@ -221,7 +221,14 @@ public class PrinterBlockEntity extends BasicLootBlockEntity
     @Override
     public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction)
     {
-        return direction != Direction.DOWN || index != SLOT_INK || stack.is(Items.WATER_BUCKET) || stack.is(Items.BUCKET);
+        // Like a furnace: the copies come out, the ink slot only gives back an empty bucket, and
+        // the book being copied stays (a hopper above used to pull it out through the top face)
+        return switch(index)
+        {
+            case SLOT_OUTPUT -> true;
+            case SLOT_INK -> stack.is(Items.BUCKET);
+            default -> false;
+        };
     }
 
     @Override

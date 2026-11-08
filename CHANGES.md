@@ -1,3 +1,20 @@
+## 1.1 - 2026-11-08
+
+1. Fixed a mail box being opened by another player than its owner through a network message. The mail box menu also closes when the player loses access to it.
+2. Fixed the content of presents, envelopes and packages being duplicated when the item left the player's hand while its menu was open.
+3. The blender no longer starts, and no longer destroys items, when it holds an item that is not part of the recipe.
+4. The text of a door mat can only be written from close by and outside the spawn protection, and formatting codes are removed from it.
+5. Fixed a possible crash when opening the oven, microwave, washing machine or dishwasher while the client was out of sync with the server.
+6. Hoppers can only take the copies and the empty bucket out of the printer, not the item being copied or the ink.
+7. Adding a chopped log to a fire pit no longer uses it up in creative mode.
+8. The post office cleans up its mail boxes once per check instead of once per dimension.
+9. The picket fences, picket gates and diving board now show in the outdoors filter of the creative tab. They were in no filter.
+10. The diving board is named "Trampoline de piscine" in French.
+11. Fixed the picket fences not connecting to each other.
+12. Added the white fence, the white gate and the diving board of the 1.12.2 version, with their 1.12.2 models, next to the picket fences, picket gates and diving board. The white fence and gate connect to the picket fences and gates.
+
+## 1.0
+
 1. Added the kitchen content of the 1.12.2 version: oven, range hood, toaster, microwave, blender, washing machine, dishwasher, plate, cookie jar, chopping board, cup, drink, bar stools, kitchen cabinets, and their recipes.
 2. Added the bathroom content of the 1.12.2 version: toilet, basin, bath, shower, shower head, wall cabinet, bin, mirror without reflection.
 3. Added the electronics content of the 1.12.2 version: computer, TV, modern TV, TV stand, printer, stereo, electric fence, fire alarm, ceiling light, modern light, light switch, ceiling fan, door bells, digital clocks, lamps.

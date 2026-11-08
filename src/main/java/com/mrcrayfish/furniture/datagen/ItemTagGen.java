@@ -112,6 +112,11 @@ public class ItemTagGen extends ItemTagsProvider
                 // Fences and Fence Gates
                 .addTag(ModTags.Items.UPGRADED_FENCE_GATES)
                 .addTag(ModTags.Items.UPGRADED_FENCES)
+                // Picket fences and gates, and the diving board: registered with an item but in no
+                // filter, so the Outdoors filter of the creative tab did not show them
+                .addTag(ModTags.Items.PICKET_FENCE_GATES)
+                .addTag(ModTags.Items.PICKET_FENCES)
+                .add(ModBlocks.DIVING_BOARD.get().asItem())
                 // Post Box
                 .add(ModBlocks.POST_BOX.get().asItem())
                 // Hedge

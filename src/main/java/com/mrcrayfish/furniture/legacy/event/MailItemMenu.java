@@ -80,6 +80,10 @@ public class MailItemMenu extends AbstractContainerMenu
             {
                 container.setItem(i, items.get(i));
             }
+            // While the menu is open, the content lives only in the menu. If the stack left the
+            // hand as a copy (dropped through a packet, which splits it), that copy must not keep
+            // the content that removed() gives back to the player.
+            MailStorage.clear(stack, layout);
             return new MailItemMenu(layout, windowId, inventory, container, stack, canInsert);
         }, layout.title()));
     }

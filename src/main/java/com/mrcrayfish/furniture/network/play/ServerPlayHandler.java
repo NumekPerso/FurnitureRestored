@@ -13,7 +13,9 @@ import com.mrcrayfish.furniture.tileentity.CrateBlockEntity;
 import com.mrcrayfish.furniture.tileentity.DoorMatBlockEntity;
 import com.mrcrayfish.furniture.tileentity.MailBoxBlockEntity;
 import com.mrcrayfish.furniture.util.BlockEntityUtil;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.Container;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.network.NetworkHooks;
@@ -56,6 +58,10 @@ public class ServerPlayHandler
         if(!blockEntity.stillValid(player))
             return;
 
+        // Same rule as MailBoxBlock#use: the position comes from the client, it could be anyone's box
+        if(!blockEntity.canAccess(player))
+            return;
+
         BlockEntityUtil.sendUpdatePacket(blockEntity);
         NetworkHooks.openScreen(player, blockEntity, message.getPos());
     }
@@ -87,7 +93,16 @@ public class ServerPlayHandler
         if(!(level.getBlockEntity(message.getPos()) instanceof DoorMatBlockEntity doorMat))
             return;
 
-        doorMat.setMessage(message.getMessage());
+        // The position comes from the client: only a mat next to the player, outside the spawn
+        // protection (the screen opens right after placing it, so the placer is always close)
+        if(!Container.stillValidBlockEntity(doorMat, player) || !level.mayInteract(player, message.getPos()))
+            return;
+
+        String text = ChatFormatting.stripFormatting(message.getMessage());
+        if(text == null || text.isBlank())
+            return;
+
+        doorMat.setMessage(text);
     }
 
     public static void handleSetMailBoxNameMessage(ServerPlayer player, C2SMessageSetMailBoxName message)

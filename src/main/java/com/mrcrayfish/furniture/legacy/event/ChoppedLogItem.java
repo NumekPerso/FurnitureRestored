@@ -47,7 +47,10 @@ public class ChoppedLogItem extends BlockItem
         {
             level.playSound(null, pos, SoundType.WOOD.getPlaceSound(), SoundSource.BLOCKS, 1.0F, level.getRandom().nextFloat() * 0.4F + 0.8F);
             level.setBlock(pos, state.setValue(FirePitBlock.STAGE, stage + 1), Block.UPDATE_ALL);
-            context.getItemInHand().shrink(1);
+            if(context.getPlayer() == null || !context.getPlayer().getAbilities().instabuild)
+            {
+                context.getItemInHand().shrink(1);
+            }
         }
         return InteractionResult.sidedSuccess(level.isClientSide());
     }

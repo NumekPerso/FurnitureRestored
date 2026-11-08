@@ -68,6 +68,7 @@ public class BlenderRecipe implements Recipe<Container>
             ItemStack stack = container.getItem(i);
             if(stack.isEmpty())
                 continue;
+            boolean matched = false;
             for(int j = 0; j < found.length; j++)
             {
                 Entry entry = this.entries.get(j);
@@ -75,9 +76,13 @@ public class BlenderRecipe implements Recipe<Container>
                 {
                     found[j] = true;
                     count++;
+                    matched = true;
                     break;
                 }
             }
+            // A stack that is not part of the recipe would be destroyed with the ingredients
+            if(!matched)
+                return false;
         }
         return count == found.length;
     }

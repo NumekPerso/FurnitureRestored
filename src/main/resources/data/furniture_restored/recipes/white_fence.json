@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    { "tag": "minecraft:wooden_fences" },
+    { "tag": "forge:dyes/white" }
+  ],
+  "result": { "item": "furniture_restored:white_fence", "count": 2 }
+}

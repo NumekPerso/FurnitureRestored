@@ -1,0 +1,24 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "OR": [
+          { "north": "true", "east": "true" },
+          { "north": "true", "west": "true" },
+          { "south": "true", "east": "true" },
+          { "south": "true", "west": "true" },
+          { "north": "true", "south": "false", "east": "false", "west": "false" },
+          { "north": "false", "south": "true", "east": "false", "west": "false" },
+          { "north": "false", "south": "false", "east": "true", "west": "false" },
+          { "north": "false", "south": "false", "east": "false", "west": "true" },
+          { "north": "false", "south": "false", "east": "false", "west": "false" }
+        ]
+      },
+      "apply": { "model": "furniture_restored:block/legacy/white_fence_post" }
+    },
+    { "when": { "north": "true" }, "apply": { "model": "furniture_restored:block/legacy/white_fence_side", "y": 90 } },
+    { "when": { "east": "true" }, "apply": { "model": "furniture_restored:block/legacy/white_fence_side", "y": 180 } },
+    { "when": { "south": "true" }, "apply": { "model": "furniture_restored:block/legacy/white_fence_side", "y": 270 } },
+    { "when": { "west": "true" }, "apply": { "model": "furniture_restored:block/legacy/white_fence_side", "y": 0 } }
+  ]
+}

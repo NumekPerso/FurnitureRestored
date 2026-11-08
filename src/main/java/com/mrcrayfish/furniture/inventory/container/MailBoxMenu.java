@@ -43,7 +43,8 @@ public class MailBoxMenu extends AbstractContainerMenu
     @Override
     public boolean stillValid(Player playerIn)
     {
-        return this.mailBoxBlockEntity.stillValid(playerIn);
+        // canAccess asks a creative player for the hammer only to open the box, not to keep it open
+        return this.mailBoxBlockEntity.stillValid(playerIn) && (this.mailBoxBlockEntity.canAccess(playerIn) || playerIn.getAbilities().instabuild);
     }
 
     @Override

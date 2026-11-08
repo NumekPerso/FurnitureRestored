@@ -38,21 +38,27 @@ import com.mrcrayfish.furniture.legacy.kitchen.menu.WashingMachineMenu;
 import com.mrcrayfish.furniture.legacy.kitchen.network.C2SMessageMachineControl;
 import com.mrcrayfish.furniture.legacy.kitchen.recipe.KitchenRecipes;
 import com.mrcrayfish.furniture.network.PacketHandler;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.SimpleContainer;
+import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.SimpleContainerData;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.network.IContainerFactory;
 import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Map;
+import java.util.function.BiFunction;
 
 /**
  * Module kitchen
@@ -88,11 +94,23 @@ public class KitchenContent
     public static final RegistryObject<BlockEntityType<ChoppingBoardBlockEntity>> CHOPPING_BOARD_ENTITY = ModBlockEntities.register("chopping_board", ChoppingBoardBlockEntity::new, () -> new Block[]{CHOPPING_BOARD.get()});
     public static final RegistryObject<BlockEntityType<KitchenCabinetBlockEntity>> KITCHEN_CABINET_ENTITY = ModBlockEntities.register("kitchen_cabinet", KitchenCabinetBlockEntity::new, () -> LegacyRegistry.blocks(KITCHEN_CABINETS));
 
-    public static final RegistryObject<MenuType<OvenMenu>> OVEN_MENU = ModContainers.register("oven", (IContainerFactory<OvenMenu>) (windowId, inventory, data) -> new OvenMenu(windowId, inventory, (OvenBlockEntity) inventory.player.level().getBlockEntity(data.readBlockPos()), new SimpleContainerData(OvenBlockEntity.DATA_COUNT)));
-    public static final RegistryObject<MenuType<MicrowaveMenu>> MICROWAVE_MENU = ModContainers.register("microwave", (IContainerFactory<MicrowaveMenu>) (windowId, inventory, data) -> new MicrowaveMenu(windowId, inventory, (MicrowaveBlockEntity) inventory.player.level().getBlockEntity(data.readBlockPos()), new SimpleContainerData(MicrowaveBlockEntity.DATA_COUNT)));
-    public static final RegistryObject<MenuType<WashingMachineMenu>> WASHING_MACHINE_MENU = ModContainers.register("washing_machine", (IContainerFactory<WashingMachineMenu>) (windowId, inventory, data) -> new WashingMachineMenu(windowId, inventory, (WashingMachineBlockEntity) inventory.player.level().getBlockEntity(data.readBlockPos()), new SimpleContainerData(WashingBlockEntity.DATA_COUNT)));
-    public static final RegistryObject<MenuType<DishwasherMenu>> DISHWASHER_MENU = ModContainers.register("dishwasher", (IContainerFactory<DishwasherMenu>) (windowId, inventory, data) -> new DishwasherMenu(windowId, inventory, (DishwasherBlockEntity) inventory.player.level().getBlockEntity(data.readBlockPos()), new SimpleContainerData(WashingBlockEntity.DATA_COUNT)));
+    public static final RegistryObject<MenuType<OvenMenu>> OVEN_MENU = ModContainers.register("oven", (IContainerFactory<OvenMenu>) (windowId, inventory, data) -> new OvenMenu(windowId, inventory, clientBlockEntity(inventory, data, OvenBlockEntity.class, OvenBlockEntity::new, OVEN), new SimpleContainerData(OvenBlockEntity.DATA_COUNT)));
+    public static final RegistryObject<MenuType<MicrowaveMenu>> MICROWAVE_MENU = ModContainers.register("microwave", (IContainerFactory<MicrowaveMenu>) (windowId, inventory, data) -> new MicrowaveMenu(windowId, inventory, clientBlockEntity(inventory, data, MicrowaveBlockEntity.class, MicrowaveBlockEntity::new, MICROWAVE), new SimpleContainerData(MicrowaveBlockEntity.DATA_COUNT)));
+    public static final RegistryObject<MenuType<WashingMachineMenu>> WASHING_MACHINE_MENU = ModContainers.register("washing_machine", (IContainerFactory<WashingMachineMenu>) (windowId, inventory, data) -> new WashingMachineMenu(windowId, inventory, clientBlockEntity(inventory, data, WashingMachineBlockEntity.class, WashingMachineBlockEntity::new, WASHING_MACHINE), new SimpleContainerData(WashingBlockEntity.DATA_COUNT)));
+    public static final RegistryObject<MenuType<DishwasherMenu>> DISHWASHER_MENU = ModContainers.register("dishwasher", (IContainerFactory<DishwasherMenu>) (windowId, inventory, data) -> new DishwasherMenu(windowId, inventory, clientBlockEntity(inventory, data, DishwasherBlockEntity.class, DishwasherBlockEntity::new, DISHWASHER), new SimpleContainerData(WashingBlockEntity.DATA_COUNT)));
     public static final RegistryObject<MenuType<KitchenCabinetMenu>> KITCHEN_CABINET_MENU = ModContainers.register("kitchen_cabinet", (IContainerFactory<KitchenCabinetMenu>) (windowId, inventory, data) -> new KitchenCabinetMenu(windowId, inventory, new SimpleContainer(15)));
+
+    /**
+     * The block entity of a machine whose menu opens on the client. A client out of sync (chunk
+     * not received yet, block just broken) has none, or another one: the cast crashed the game.
+     * A detached block entity stands in, the menu then shows the slots the server syncs.
+     */
+    private static <T extends BlockEntity> T clientBlockEntity(Inventory inventory, FriendlyByteBuf data, Class<T> type, BiFunction<BlockPos, BlockState, T> factory, RegistryObject<Block> block)
+    {
+        BlockPos pos = data.readBlockPos();
+        BlockEntity blockEntity = inventory.player.level().getBlockEntity(pos);
+        return type.isInstance(blockEntity) ? type.cast(blockEntity) : factory.apply(pos, block.get().defaultBlockState());
+    }
 
     private static Properties properties(MapColor color, float strength, SoundType sound)
     {

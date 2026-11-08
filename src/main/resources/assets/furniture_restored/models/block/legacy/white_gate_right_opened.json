@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/legacy/thin_gate_right_opened",
+    "textures": {
+        "texture": "minecraft:block/white_concrete"
+    }
+}

@@ -9,6 +9,8 @@ import com.mrcrayfish.furniture.block.DeskCabinetBlock;
 import com.mrcrayfish.furniture.block.DoorMatBlock;
 import com.mrcrayfish.furniture.block.TableBlock;
 import com.mrcrayfish.furniture.block.UpgradedFenceBlock;
+import com.mrcrayfish.furniture.block.UpgradedGateBlock;
+import net.minecraft.world.level.material.MapColor;
 import com.mrcrayfish.furniture.core.ModBlockEntities;
 import com.mrcrayfish.furniture.core.ModBlocks;
 import com.mrcrayfish.furniture.core.ModContainers;
@@ -79,6 +81,13 @@ public class SharedContent
 
     /* Mined with a pickaxe through BlockTagGen, its sound type is not one of those detected there */
     public static final RegistryObject<Block> NETHER_BRICK_UPGRADED_FENCE = LegacyRegistry.block("nether_brick_upgraded_fence", () -> new UpgradedFenceBlock(Block.Properties.copy(Blocks.NETHER_BRICK_FENCE).noOcclusion()), Category.OUTDOORS);
+
+    /* The white fence, white gate and diving board of the 1.12.2 version, with their models. The
+     * fence and the gate are in the picket tags: they connect to the picket fences and gates. */
+    public static final RegistryObject<Block> WHITE_FENCE = LegacyRegistry.block("white_fence", () -> new UpgradedFenceBlock(Block.Properties.copy(Blocks.OAK_FENCE).mapColor(MapColor.SNOW).noOcclusion()), Category.OUTDOORS);
+    public static final RegistryObject<Block> WHITE_GATE = LegacyRegistry.block("white_gate", () -> new UpgradedGateBlock(Block.Properties.copy(Blocks.OAK_FENCE_GATE).mapColor(MapColor.SNOW).noOcclusion()), Category.OUTDOORS);
+    /* Mined with a pickaxe through BlockTagGen (stone sound) */
+    public static final RegistryObject<Block> CLASSIC_DIVING_BOARD = LegacyRegistry.block("classic_diving_board", () -> new ClassicDivingBoardBlock(Block.Properties.copy(Blocks.QUARTZ_BLOCK).strength(1.0F).noOcclusion()), Category.OUTDOORS);
 
     public static final Map<DyeColor, RegistryObject<Block>> DOOR_MATS = LegacyRegistry.dyed("door_mat", color -> new DoorMatBlock(Block.Properties.copy(Blocks.HAY_BLOCK).mapColor(color).noOcclusion()), block -> new DoorMatItem(block, new Item.Properties()), Category.OUTDOORS);
 

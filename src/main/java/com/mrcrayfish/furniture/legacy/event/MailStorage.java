@@ -40,6 +40,20 @@ public final class MailStorage
         stack.getOrCreateTag().put(layout.tagKey(), ContainerHelper.saveAllItems(new CompoundTag(), items, true));
     }
 
+    /** Removes the content, keeping the author. */
+    public static void clear(ItemStack stack, MailLayout layout)
+    {
+        CompoundTag tag = stack.getTag();
+        if(tag != null)
+        {
+            tag.remove(layout.tagKey());
+            if(tag.isEmpty())
+            {
+                stack.setTag(null);
+            }
+        }
+    }
+
     public static boolean hasItems(ItemStack stack, MailLayout layout)
     {
         CompoundTag tag = stack.getTag();

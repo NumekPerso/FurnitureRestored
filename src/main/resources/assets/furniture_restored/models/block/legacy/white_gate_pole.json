@@ -1,0 +1,6 @@
+{
+    "parent": "furniture_restored:block/legacy/thin_gate_pole",
+    "textures": {
+        "texture": "minecraft:block/white_concrete"
+    }
+}

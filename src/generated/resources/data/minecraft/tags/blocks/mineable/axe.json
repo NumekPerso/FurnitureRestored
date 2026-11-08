@@ -390,6 +390,8 @@
     "furniture_restored:outdoor_table",
     "furniture_restored:tree",
     "furniture_restored:grand_chair",
-    "furniture_restored:fire_pit"
+    "furniture_restored:fire_pit",
+    "furniture_restored:white_fence",
+    "furniture_restored:white_gate"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "C  ",
+    "QQQ",
+    "C  "
+  ],
+  "key": {
+    "Q": { "item": "minecraft:quartz_block" },
+    "C": { "item": "minecraft:cyan_terracotta" }
+  },
+  "result": { "item": "furniture_restored:classic_diving_board" }
+}

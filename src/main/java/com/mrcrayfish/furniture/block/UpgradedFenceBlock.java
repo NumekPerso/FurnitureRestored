@@ -162,7 +162,10 @@ public class UpgradedFenceBlock extends FurnitureWaterloggedBlock
             flag1 = direction == hingeFace.getOpposite() || (!offsetState.getValue(UpgradedGateBlock.DOUBLE) && direction.getAxis() != gateDirection.getAxis());
         }
 
-        boolean flag = offsetState.is(ModTags.Blocks.UPGRADED_FENCES) && offsetState.is(ModTags.Blocks.PICKET_FENCES) == this.defaultBlockState().is(ModTags.Blocks.PICKET_FENCES);
+        // Picket fences are not in the upgraded fences tag: requiring it kept them from ever
+        // connecting to each other. A fence joins the fences of its own kind.
+        boolean neighbourIsFence = offsetState.is(ModTags.Blocks.UPGRADED_FENCES) || offsetState.is(ModTags.Blocks.PICKET_FENCES);
+        boolean flag = neighbourIsFence && offsetState.is(ModTags.Blocks.PICKET_FENCES) == this.defaultBlockState().is(ModTags.Blocks.PICKET_FENCES);
         return !isExceptionForConnection(offsetState) && offsetState.isFaceSturdy(level, offsetPos, direction.getOpposite()) || flag || flag1;
     }
 

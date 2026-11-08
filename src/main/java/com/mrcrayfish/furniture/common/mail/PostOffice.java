@@ -249,6 +249,10 @@ public class PostOffice extends SavedData
         if(event.side != LogicalSide.SERVER)
             return;
 
+        // The post office is global: one clean-up per server tick, not one per dimension
+        if(event.level.dimension() != Level.OVERWORLD)
+            return;
+
         MinecraftServer server = event.level.getServer();
         if(server != null && server.getTickCount() % 1200 == 0)
         {
